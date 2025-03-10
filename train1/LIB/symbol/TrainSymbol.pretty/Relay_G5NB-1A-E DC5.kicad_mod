@@ -1,0 +1,271 @@
+(footprint "Relay_G5NB-1A-E DC5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "Relay")
+	(property "Reference" "REF**"
+		(at -7.1625 -9.699999 90)
+		(layer "F.SilkS")
+		(uuid "0e3c169d-f9b2-4d56-ba28-16cb8f9fc750")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "Relay_G5NB-1A-E_DC5"
+		(at -7.7 -9.8 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "083ab12a-6dc9-4edd-aa09-5a5d2f447130")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "IVS_FOOTPRINTS:Relay_G5NB-1A-E DC5"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74e7020c-5bd4-48f3-bc92-40614d6684a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4796d7cd-d135-4c5a-ba2a-65bf03a91f14")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cbbe140-6752-41c6-af15-1563f862e423")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Thegioiic_Buylink" "https://www.thegioiic.com/g5nb-1a-e-5vdc-ro-le-5vdc-5a-spst-no"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "083f1a10-6fff-415f-a943-7fdfc98dc77b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.1 -19.6)
+		(end 1.375 1.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7c8e94ff-e9e6-429d-9bbc-5fe2abc0f36b")
+	)
+	(fp_line
+		(start -6.104 -19.604)
+		(end 1.403999 -19.604)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99059a79-2e79-4a96-8959-a8e96b24db21")
+	)
+	(fp_line
+		(start -6.104 1.304)
+		(end -6.104 -19.604)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40f75e1d-b4d6-4600-841f-0703507ed7c9")
+	)
+	(fp_line
+		(start 1.403999 -19.604)
+		(end 1.403999 1.304)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea3f2bc1-9656-4634-8ab2-d855bd520206")
+	)
+	(fp_line
+		(start 1.403999 1.304)
+		(end -6.104 1.304)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7af96be-5bdd-4162-868a-3a28854bbcff")
+	)
+	(fp_line
+		(start -5.850001 -19.35)
+		(end -5.850001 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b0883fe-7515-4d2d-95f2-91b09fc05fb6")
+	)
+	(fp_line
+		(start -5.850001 1.05)
+		(end 1.15 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f8b10fa-16a7-432e-8d2d-5b6c4ed066d2")
+	)
+	(fp_line
+		(start 1.15 -19.35)
+		(end -5.850001 -19.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80a2d186-613b-4945-baa2-a602cb131421")
+	)
+	(fp_line
+		(start 1.15 1.05)
+		(end 1.15 -19.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe2d7a9b-96a5-4e55-8f80-3f4f38f1f64b")
+	)
+	(fp_arc
+		(start -2.0452 -19.35)
+		(mid -2.35 -19.0452)
+		(end -2.6548 -19.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "807b5e8f-15e4-42ed-931c-71b5eb478e7e")
+	)
+	(fp_circle
+		(center -3.899901 -18.299999)
+		(end -3.899901 -18.299999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2c0965c9-add5-4713-9c29-7fc0dd0784b4")
+	)
+	(fp_text user "*"
+		(at -2.3 -11.3 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1a791687-dbf2-42f3-9929-dc5acbbe4f24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "*"
+		(at -2.3 -11.3 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f4bd5299-9bdd-4407-b328-dde6d9d70b1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Copyright 2021 Accelerated Designs. All rights reserved."
+		(at 0 0 180)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "1ea1b4f2-9923-42dc-b507-87d15f8f0f25")
+		(effects
+			(font
+				(size 0.127 0.127)
+				(thickness 0.002)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -4.700001 -18.299999)
+		(size 1.607998 1.607998)
+		(drill 1.099998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33a046c8-4610-49c2-977d-ffbb6f9aaa29")
+	)
+	(pad "2" thru_hole circle
+		(at -4.700001 -6.799999)
+		(size 1.607998 1.607998)
+		(drill 1.099998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "819b9cb3-769d-4807-8ba2-dcaf1dd02f4a")
+	)
+	(pad "3" thru_hole circle
+		(at -4.700001 0.199999)
+		(size 1.607998 1.607998)
+		(drill 1.099998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "67878e95-fef0-43fc-a1c9-cee1d32784c7")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -18.299999)
+		(size 1.607998 1.607998)
+		(drill 1.099998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1a220c5-191f-4f88-b80c-19ff82aaed25")
+	)
+	(model "${IOTVISION_3D}/Relay/G5NB_1A_E.step"
+		(offset
+			(xyz -4.5 18.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

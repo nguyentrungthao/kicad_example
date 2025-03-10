@@ -1,0 +1,139 @@
+(footprint "C_0805"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.05 -0.05 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "343dd16d-e373-45d9-9e6b-4ee880cb47be")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "10uF"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bf0c7e0c-3652-4f6d-81c7-6ea303cfa064")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "IVS_FOOTPRINTS:C_0805"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09323edd-7486-4a8c-83a9-a9a4171d17e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d81effd5-6533-46ef-a224-4350ad0f11c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1e930c2-021f-4f24-a7dc-ae5c935f78fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.3 -0.5)
+		(end 0.3 -0.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f40bb8a-3b11-4a6c-932f-3f080b9f40e6")
+	)
+	(fp_line
+		(start -0.3 0.5)
+		(end 0.3 0.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f45d7ee4-a072-4c3f-9bb6-c558fa0fa80e")
+	)
+	(fp_rect
+		(start -1.7 -0.9)
+		(end 1.7 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "81d67ad7-bb99-4107-a1d6-7a5b2ee2ad08")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f4d6ce4e-3168-4f1f-be69-ce3dad3fb061")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.95 0)
+		(size 1 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "b625f534-0eb6-4a20-a5d2-8ee0c39ffa22")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 0)
+		(size 1 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "d9ef5318-7819-4697-a20a-7992ec34ce77")
+	)
+	(model "${IOTVISION_3D}/Capacitor/Cap_SMD/CAP/csmd-0805_l2_w1-25_h1-25.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

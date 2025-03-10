@@ -1,0 +1,228 @@
+(footprint "C_Rect_L7.0mm_W2.0mm_P5.00mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2mm^2, Capacitor")
+	(tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor")
+	(property "Reference" "REF**"
+		(at 2.5 -2.25 0)
+		(layer "F.SilkS")
+		(uuid "d65b89e9-fbf2-4cb7-8637-a2bd5656980d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "471/2k"
+		(at 2.5 2.25 0)
+		(layer "F.Fab")
+		(uuid "46b83881-3ac4-4377-85db-3c697f71184c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24cdaa36-7dfa-4df9-94fc-a46971161bae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7081422b-a939-4cb0-8403-dcbd3bbf4b0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9aec79fc-7d91-44ab-86ed-c763e6bcf1a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.12 -1.12)
+		(end -1.12 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d7799c8-1b5d-44f2-9f30-d5e847b9bf55")
+	)
+	(fp_line
+		(start -1.12 -1.12)
+		(end 6.12 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac6573a7-e6ca-407d-b8bc-b66012e5ed71")
+	)
+	(fp_line
+		(start -1.12 1.12)
+		(end 6.12 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fe46d62-0f40-4aef-b9c7-e49ed1822808")
+	)
+	(fp_line
+		(start 6.12 -1.12)
+		(end 6.12 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "885923c9-5ec3-4309-98f3-c31d55ce6c50")
+	)
+	(fp_line
+		(start -1.25 -1.25)
+		(end -1.25 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d0ded39-b07d-414b-a90a-3c83095b0cba")
+	)
+	(fp_line
+		(start -1.25 1.25)
+		(end 6.25 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5fe0b8c-0c1d-4920-9fe9-0006649cbc37")
+	)
+	(fp_line
+		(start 6.25 -1.25)
+		(end -1.25 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b3ba1c9-5bec-42d3-b699-dce4d295f715")
+	)
+	(fp_line
+		(start 6.25 1.25)
+		(end 6.25 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a935a567-5d2a-4bb5-9f86-387a2eb1a93b")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0579eeee-eb3c-4fab-86e2-3b41b8242239")
+	)
+	(fp_line
+		(start -1 1)
+		(end 6 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34f5c835-2795-4778-9141-595853045c8b")
+	)
+	(fp_line
+		(start 6 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c59de70f-6ed3-46a3-99fd-bfa9c56052a8")
+	)
+	(fp_line
+		(start 6 1)
+		(end 6 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ded6bf79-9d00-4ab0-914e-a17c1216f276")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "e8803767-0f69-44fe-aa42-fcf0054369a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8000fdda-42c9-4b60-bb24-d161d4a2c776")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9270faef-9d2b-4cac-a939-b7662ac9b7f8")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L7.0mm_W2.0mm_P5.00mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
