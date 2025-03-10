@@ -25,7 +25,7 @@
 ---
 
 ## Thiết kế phần cứng 
-- <p style="color:read;">NHỚ ĐỌC TÀI LIỆU CỦA LINH KIỆN TRƯỚC KHI VẼ</p>
+- $${\color{red} NHỚ ĐỌC TÀI LIỆU CỦA LINH KIỆN TRƯỚC KHI VẼ}$$
 
 ##### Hướng dẫn thêm thư viện IoTVision vào KICAD
 
