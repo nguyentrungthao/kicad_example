@@ -27,8 +27,9 @@
 ## Thiết kế phần cứng 
 - $${\color{red} NHỚ ĐỌC TÀI LIỆU CỦA LINH KIỆN TRƯỚC KHI VẼ}$$
 
-##### Hướng dẫn thêm thư viện IoTVision vào KICAD
+### Hướng dẫn thêm thư viện IoTVision vào KICAD
 
+#### Thư viện có sẵn 
 1. **Vào KICAD**.
 2. **Chọn Preferences → Configure Paths**.
 3. **Thêm đường dẫn thư viện**:
@@ -44,8 +45,26 @@
 
 > **Lưu ý**: Nếu mở **PCB Editor** hoặc **Footprint Editor**, bạn sẽ không thấy **Manage Symbol Libraries**. 
 
-- **Video mẫu**: [Hướng dẫn cài thư viện](https://youtu.be/sz3mICmpLzM)
 
+#### Tải 3D và Footprint
+
+- **Tìm footprint** <tên linh kiện> + <footprint> hoặc <tên linh kiện> + <digikey>
+- **Tìm 3D** <tên linh kiện> + <3D> hoặc <Tên linh kiện> + <grabcad>
+
+##### **Tải 3D**:
+- [GrabCAD](https://grabcad.com/)
+- [3D Content Central](https://www.3dcontentcentral.com/)
+
+##### **Tải Footprint**:
+- [SnapEDA](https://www.snapeda.com/)
+- [Ultra Librarian](https://www.ultralibrarian.com/)
+- [Digi-Key Footprint for Qualcomm RF Front End (RFFE) Filters](https://www.digikey.co.uk/en/products/detail/qualcomm-rf-front-end-rffe-filters/B39871B3725U410/3492646)
+
+
+- **Video add thư viện**: [Hướng dẫn cài thư viện](https://youtu.be/sz3mICmpLzM)
+- **video tìm add thư viện ngoài** [Tải thư viện ngoài - phút 12](https://www.youtube.com/watch?v=1mLzU-ezbA4&list=PLl72apUE_izgVsnWJDfx34R6ak8Qz5oGz&index=2&t=711s)
+- **Thư viện cũ của LAB**: [IoTVision](https://github.com/IoTVision/HardwareLibrary)
+- **Thư viện riêng của Tác giả** [KicadLIB](https://github.com/nguyentrungthao/KicadLibrary)
 ---
 #### Schematic
 
@@ -128,3 +147,9 @@
 
 - Test nạp code ESP32 => nếu không tự động nạp được, xem lại mạch nút nhấn BOOT và RESET của ESP32.
 - Viết code test từng module trên PCB.
+
+
+## Project Mẫu 
+- **STM32F103** [Đồ án môn học - PID Lò nhiệt](https://github.com/nguyentrungthao/AcademicProject2_v2)
+- **projet mẫu** [mạch mẫu theo link học tập của Thầy TS.Nguyễn Văn Thái](https://github.com/nguyentrungthao/kicad_example/tree/main/train1)
+- **Link bài học của Thầy Nguyễn Văn Thái** [Bài Giảng](https://docs.google.com/document/d/1S12LlzbIVofPXDoD7pqb3iYUZ_utdi-w3tmKryJMrkk/edit?tab=t.0)
