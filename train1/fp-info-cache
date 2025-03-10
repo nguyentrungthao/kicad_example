@@ -1,4 +1,4 @@
-25151300430877558
+25106023938192476
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99868,230 +99868,6 @@ test point THT pad
 0
 1
 1
-TrainSymbol
-ACDC_PowerSuppy_HLK_P01
-ACDC-Converter, 3W, HiLink, HLK-PMxx, THT, http://www.hlktech.net/product_detail.php?ProId=54
-ACDC-Converter 3W THT HiLink board mount module
-0
-4
-4
-TrainSymbol
-ACFilterChokeUU9.8
-
-
-0
-4
-4
-TrainSymbol
-BarrelJack_Wuerth_6941xx301002
-Wuerth electronics barrel jack connector (5.5mm outher diameter, inner diameter 2.05mm or 2.55mm depending on exact order number), See: http://katalog.we-online.de/em/datasheet/6941xx301002.pdf
-connector barrel jack
-0
-3
-2
-TrainSymbol
-BatteryHolder_CR1220
-
-BatteryHolder
-0
-2
-2
-TrainSymbol
-Buzzer_12x9.5RM7.6
-Generic Buzzer, D12mm height 9.5mm with RM7.6mm
-buzzer
-0
-2
-2
-TrainSymbol
-CP_Elec_6.3x7.7
-SMD capacitor, aluminum electrolytic, Nichicon, 6.3x7.7mm
-capacitor electrolytic
-0
-2
-2
-TrainSymbol
-C_0603
-
-
-0
-2
-2
-TrainSymbol
-C_0805
-
-
-0
-2
-2
-TrainSymbol
-C_Rect_L7.0mm_W2.0mm_P5.00mm
-C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2mm^2, Capacitor
-C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor
-0
-2
-2
-TrainSymbol
-C_Rect_L16.5mm_W5.0mm_P15.00mm_MKT
-C, Rect series, Radial, pin pitch=15.00mm, , length*width=16.5*5mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf
-C Rect series Radial pin pitch 15.00mm  length 16.5mm width 5mm Capacitor
-0
-2
-2
-TrainSymbol
-D_MiniMELF
-
-
-0
-2
-2
-TrainSymbol
-D_SMA
-
-
-0
-2
-2
-TrainSymbol
-D_SOD-123
-D_SOD-123
-D_SOD-123
-0
-2
-2
-TrainSymbol
-D_SOD323
-<li><b>SOD323(F)</b><hr><ul><li>Plastic surface-mounted package; 2 leads<li><u>JEDEC</u>: --<li><u>IEC</u>: --<li><u>JEITA</u>: SC-90</ul>
-Diode
-0
-2
-2
-TrainSymbol
-ESP8266-07__ESP32-C3-12F
-Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
-Wi-Fi Module
-0
-16
-16
-TrainSymbol
-Fuse_1812_4532Metric
-Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
-fuse
-0
-2
-2
-TrainSymbol
-LED_0603
-
-
-0
-2
-2
-TrainSymbol
-L_10.4x10.4_H4.8
-Choke, SMD, 10.4x10.4mm 4.8mm height
-Choke SMD
-0
-2
-2
-TrainSymbol
-MountingHole_3.2mm_M3_Pad_Via
-Mounting Hole 3.2mm, M3
-mounting hole 3.2mm m3
-0
-9
-1
-TrainSymbol
-PinHeader_1x06_P2.54mm_Vertical
-Through hole straight pin header, 1x06, 2.54mm pitch, single row
-Through hole pin header THT 1x06 2.54mm single row
-0
-6
-6
-TrainSymbol
-RV_Disc_D12mm_W3.9mm_P7.5mm
-Varistor, diameter 12mm, width 3.9mm, pitch 7.5mm
-varistor SIOV
-0
-2
-2
-TrainSymbol
-RV_Disc_D12mm_W5.8mm_P7.5mm
-Varistor, diameter 12mm, width 5.8mm, pitch 7.5mm
-varistor SIOV
-0
-2
-2
-TrainSymbol
-R_0603
-
-
-0
-2
-2
-TrainSymbol
-Relay_G5NB-1A-E DC5
-
-Relay
-0
-4
-4
-TrainSymbol
-SOIC-8_3.9x4.9mm_P1.27mm
-SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
-0
-8
-8
-TrainSymbol
-SOIC-16W_7.5x10.3mm_P1.27mm
-SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
-0
-16
-16
-TrainSymbol
-SOT-223-3_TabPin2
-module CMS SOT223 4 pins
-CMS SOT
-0
-4
-3
-TrainSymbol
-SOT23-3
-
-
-0
-3
-3
-TrainSymbol
-SW_SPST_PTS810
-
-
-0
-4
-2
-TrainSymbol
-SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
-net tie solder jumper bridged
-0
-3
-3
-TrainSymbol
-TerminalBlock_Screw_HB9500_6P_P9.5mm
-
-
-0
-6
-6
-TrainSymbol
-USB_A_Wuerth_61400826021_Horizontal_Stacked
-Stacked USB A connector http://katalog.we-online.de/em/datasheet/61400826021.pdf
-Wuerth stacked USB_A
-0
-12
-9
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
@@ -101703,6 +101479,13 @@ Varistor VF
 2
 2
 trainFootprint
+ACDC_HLK10M05
+<b>HLK-10M05-1</b><br>
+
+0
+4
+4
+trainFootprint
 ACDC_PowerSuppy_HLK_P01
 ACDC-Converter, 3W, HiLink, HLK-PMxx, THT, http://www.hlktech.net/product_detail.php?ProId=54
 ACDC-Converter 3W THT HiLink board mount module
@@ -101801,6 +101584,13 @@ Diode
 2
 2
 trainFootprint
+ESP32-WROOM-32E
+ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
+ESP32
+0
+55
+39
+trainFootprint
 ESP8266-07__ESP32-C3-12F
 Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
 Wi-Fi Module
@@ -101829,6 +101619,13 @@ Choke SMD
 2
 2
 trainFootprint
+MicroSD_Socket_9P
+
+
+0
+13
+10
+trainFootprint
 MountingHole_3.2mm_M3_Pad_Via
 Mounting Hole 3.2mm, M3
 mounting hole 3.2mm m3
@@ -101836,12 +101633,26 @@ mounting hole 3.2mm m3
 9
 1
 trainFootprint
+OPTO_EL357N-G
+
+
+0
+4
+4
+trainFootprint
 PinHeader_1x06_P2.54mm_Vertical
 Through hole straight pin header, 1x06, 2.54mm pitch, single row
 Through hole pin header THT 1x06 2.54mm single row
 0
 6
 6
+trainFootprint
+PinHeader_1x07_P2.54mm_Vertical
+Through hole straight pin header, 1x07, 2.54mm pitch, single row
+Through hole pin header THT 1x07 2.54mm single row
+0
+7
+7
 trainFootprint
 RV_Disc_D12mm_W3.9mm_P7.5mm
 Varistor, diameter 12mm, width 3.9mm, pitch 7.5mm
@@ -101919,6 +101730,13 @@ TerminalBlock_Screw_HB9500_6P_P9.5mm
 0
 6
 6
+trainFootprint
+TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
 trainFootprint
 USB_A_Wuerth_61400826021_Horizontal_Stacked
 Stacked USB A connector http://katalog.we-online.de/em/datasheet/61400826021.pdf
