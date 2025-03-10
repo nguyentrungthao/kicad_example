@@ -15,12 +15,12 @@
 
 ### IBOM:
 - [GitHub IBOM Plugin](https://github.com/openscopeproject/InteractiveHtmlBom)
-- ![IBOM Plugin](https://drive.google.com/file/d/1vEc_YYX-bH-AufiqHKSKwVIpvsJtlNk7/view?usp=sharing)
+- ![IBOM Plugin](https://github.com/nguyentrungthao/kicad_example/blob/main/Document/install_IBOM.png?raw=true)
 
 ### JLCPCB:
 - [GitHub JLCPCB Plugin](https://github.com/Bouni/kicad-jlcpcb-tools)
 - **Link điền ở mục 4**: [Raw JSON Link](https://raw.githubusercontent.com/Bouni/bouni-kicad-repository/main/repository.json)
-- ![JLCPCB Plugin](https://drive.google.com/file/d/1-FcPmArh3dxVTaS3dIIPEUpybPJeompa/view?usp=sharing)
+- ![JLCPCB Plugin](https://github.com/nguyentrungthao/kicad_example/blob/main/Document/install_JLC.png?raw=true)
 
 ---
 
