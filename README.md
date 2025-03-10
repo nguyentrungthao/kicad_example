@@ -19,24 +19,13 @@
 
 ### JLCPCB:
 - [GitHub JLCPCB Plugin](https://github.com/Bouni/kicad-jlcpcb-tools)
-- **Link điền ở mục 4**: [Raw JSON Link](https://raw.githubusercontent.com/Bouni/bouni-kicad-repository/main/repository.json)
+- **Link điền ở mục 4**: '''https://raw.githubusercontent.com/Bouni/bouni-kicad-repository/main/repository.json'''
 - ![JLCPCB Plugin](https://github.com/nguyentrungthao/kicad_example/blob/main/Document/install_JLC.png?raw=true)
 
 ---
 
-## THIẾT KẾ SẢN PHẨM
-
-### Nghiên cứu sản phẩm mẫu
-
-- **Chọn linh kiện**
-
----
-
-## Giai đoạn Prototile
-
-### Các Tool trong KICAD
-
-#### Schematic
+## Thiết kế phần cứng 
+- <p style="color:read;">NHỚ ĐỌC TÀI LIỆU CỦA LINH KIỆN TRƯỚC KHI VẼ</p>
 
 ##### Hướng dẫn thêm thư viện IoTVision vào KICAD
 
@@ -58,8 +47,7 @@
 - **Video mẫu**: [Hướng dẫn cài thư viện](https://youtu.be/sz3mICmpLzM)
 
 ---
-
-### Hướng dẫn sử dụng KICAD
+#### Schematic
 
 1. **Lấy linh kiện**.
 2. **Định nghĩa Bus I2C, SPI, Bus số (Demo vẽ insert)**.
