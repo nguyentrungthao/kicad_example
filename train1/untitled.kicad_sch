@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "0c988b9e-2fc3-41ff-a698-9c96b005619f")
 	(paper "A4")
 	(lib_symbols
@@ -81,7 +81,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -93,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -107,7 +107,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3.3V"
 						(effects
 							(font
@@ -124,6 +125,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:+3V3"
 			(power)
@@ -201,7 +203,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -213,7 +215,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -227,7 +229,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3"
 						(effects
 							(font
@@ -244,6 +247,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:+5V"
 			(power)
@@ -321,7 +325,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -333,7 +337,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -347,7 +351,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -364,6 +369,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:AMS1117-3.3"
 			(exclude_from_sim no)
@@ -446,6 +452,24 @@
 			)
 			(symbol "AMS1117-3.3_1_1"
 				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "GND"
@@ -481,28 +505,13 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -575,7 +584,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -587,7 +596,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -636,9 +645,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -794,6 +806,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:D_Schottky"
 			(exclude_from_sim no)
@@ -845,18 +858,6 @@
 			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
 						(xy -0.635 0.635) (xy -0.635 1.27) (xy 0 1.27) (xy 0 -1.27) (xy 0.635 -1.27) (xy 0.635 -0.635)
 					)
 					(stroke
@@ -867,26 +868,20 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
+			)
+			(symbol "D_Schottky_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
@@ -905,7 +900,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:D_Zener"
 			(exclude_from_sim no)
@@ -957,18 +971,6 @@
 			(symbol "D_Zener_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.016) (xy -0.508 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 1.016) (xy 0 -1.016)
 					)
 					(stroke
@@ -993,6 +995,18 @@
 				)
 				(polyline
 					(pts
+						(xy 0 -1.016) (xy -0.508 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
 					)
 					(stroke
@@ -1005,24 +1019,6 @@
 				)
 			)
 			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
@@ -1041,7 +1037,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:Earth"
 			(power)
@@ -1158,7 +1173,8 @@
 			(symbol "Earth_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "Earth"
 						(effects
 							(font
@@ -1175,10 +1191,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:Filter_EMI_LL"
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1245,17 +1264,6 @@
 			)
 			(symbol "Filter_EMI_LL_0_1"
 				(circle
-					(center -3.048 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
 					(center -3.048 1.524)
 					(radius 0.254)
 					(stroke
@@ -1266,69 +1274,20 @@
 						(type outline)
 					)
 				)
-				(arc
-					(start -2.54 2.032)
-					(mid -2.032 1.5262)
-					(end -1.524 2.032)
+				(circle
+					(center -3.048 -1.27)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -2.032)
-					(mid -2.032 -1.5262)
-					(end -2.54 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 2.032)
-					(mid -1.016 1.5262)
-					(end -0.508 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 -2.032)
-					(mid -1.016 -1.5262)
-					(end -1.524 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 2.032)
-					(mid 0 1.5262)
-					(end 0.508 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy -2.54 -2.032) (xy -2.54 -2.54)
+						(xy -2.54 2.032) (xy -2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1352,8 +1311,128 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 2.032) (xy -2.54 2.54)
+						(xy -2.54 -2.032) (xy -2.54 -2.54)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 2.032)
+					(mid -2.032 1.5262)
+					(end -2.54 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.032)
+					(mid -2.032 -1.5262)
+					(end -1.524 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 2.032)
+					(mid -1.016 1.5262)
+					(end -1.524 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -2.032)
+					(mid -1.016 -1.5262)
+					(end -0.508 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 2.032)
+					(mid 0 1.5262)
+					(end -0.508 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 -2.032)
+					(mid 0 -1.5262)
+					(end 0.508 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 2.032)
+					(mid 1.016 1.5262)
+					(end 0.508 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -2.032)
+					(mid 1.016 -1.5262)
+					(end 1.524 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 2.032)
+					(mid 2.032 1.5262)
+					(end 1.524 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -2.032)
+					(mid 2.032 -1.5262)
+					(end 2.54 -2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -1364,7 +1443,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.032) (xy 2.54 -2.54)
+						(xy 2.54 2.54) (xy 2.54 2.032)
 					)
 					(stroke
 						(width 0)
@@ -1388,68 +1467,8 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 2.032)
+						(xy 2.54 -2.032) (xy 2.54 -2.54)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 -2.032)
-					(mid 0 -1.5262)
-					(end -0.508 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 2.032)
-					(mid 1.016 1.5262)
-					(end 1.524 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -2.032)
-					(mid 1.016 -1.5262)
-					(end 0.508 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 2.032)
-					(mid 2.032 1.5262)
-					(end 2.54 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -2.032)
-					(mid 2.032 -1.5262)
-					(end 1.524 -2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -1479,24 +1498,6 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "3"
@@ -1507,6 +1508,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1533,9 +1552,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:Fuse"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1666,6 +1688,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:GND"
 			(power)
@@ -1745,7 +1768,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1762,6 +1786,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:HLK-PM01"
 			(exclude_from_sim no)
@@ -1840,30 +1865,6 @@
 						(type background)
 					)
 				)
-				(arc
-					(start -5.334 0.635)
-					(mid -4.699 0.2495)
-					(end -4.064 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 0.635)
-					(mid -3.429 1.0072)
-					(end -4.064 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -5.334 -0.635) (xy -2.794 -0.635)
@@ -1876,10 +1877,22 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.175)
+				(arc
+					(start -4.064 0.635)
+					(mid -4.699 0.2495)
+					(end -5.334 0.635)
+					(stroke
+						(width 0)
+						(type default)
 					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.064 0.635)
+					(mid -3.429 1.0072)
+					(end -2.794 0.635)
 					(stroke
 						(width 0)
 						(type default)
@@ -1890,31 +1903,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0.635)
+						(xy 0 3.81) (xy 0 3.175)
 					)
 					(stroke
 						(width 0)
@@ -1938,7 +1927,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 0 3.175)
+						(xy 0 1.27) (xy 0 0.635)
 					)
 					(stroke
 						(width 0)
@@ -1950,7 +1939,31 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -0.635) (xy 5.334 -0.635)
+						(xy 0 0) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.175)
 					)
 					(stroke
 						(width 0)
@@ -1963,6 +1976,18 @@
 				(polyline
 					(pts
 						(xy 2.794 0.635) (xy 3.302 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.635) (xy 5.334 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -2035,24 +2060,6 @@
 					)
 				)
 				(pin power_out line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "-Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
 					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "+Vout"
@@ -2070,10 +2077,31 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "-Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:INDUCTOR"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -2134,20 +2162,8 @@
 			)
 			(symbol "INDUCTOR_0_1"
 				(arc
-					(start -2.54 0)
+					(start -5.08 0)
 					(mid -3.81 1.2645)
-					(end -5.08 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid -1.27 1.2645)
 					(end -2.54 0)
 					(stroke
 						(width 0)
@@ -2158,8 +2174,8 @@
 					)
 				)
 				(arc
-					(start 2.54 0)
-					(mid 1.27 1.2645)
+					(start -2.54 0)
+					(mid -1.27 1.2645)
 					(end 0 0)
 					(stroke
 						(width 0)
@@ -2170,9 +2186,21 @@
 					)
 				)
 				(arc
-					(start 5.08 0)
-					(mid 3.81 1.2645)
+					(start 0 0)
+					(mid 1.27 1.2645)
 					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -2220,6 +2248,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:Jack-DC"
 			(pin_names
@@ -2301,10 +2330,10 @@
 						(type background)
 					)
 				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2314,8 +2343,31 @@
 					)
 				)
 				(arc
-					(start -3.302 3.175)
+					(start -3.302 1.905)
 					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
 					(end -3.302 1.905)
 					(stroke
 						(width 0.254)
@@ -2335,29 +2387,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -2399,6 +2428,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:Led"
 			(exclude_from_sim no)
@@ -2450,30 +2480,6 @@
 			(symbol "Led_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
 					)
 					(stroke
@@ -2496,26 +2502,32 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "Led_1_1"
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 1.27)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Led_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
@@ -2534,12 +2546,35 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2637,10 +2672,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:P_Mosfet"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2698,26 +2738,16 @@
 				)
 			)
 			(symbol "P_Mosfet_0_1"
-				(circle
-					(center -0.889 0)
-					(radius 2.794)
+				(polyline
+					(pts
+						(xy -2.286 1.905) (xy -2.286 -1.905)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
@@ -2734,19 +2764,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.286 1.905) (xy -2.286 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.27) (xy -1.778 -2.286)
+						(xy -1.778 2.286) (xy -1.778 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2770,34 +2788,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 2.286) (xy -1.778 1.27)
+						(xy -1.778 -1.27) (xy -1.778 -2.286)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -2816,6 +2810,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -0.889 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -0.3048 0) (xy -1.3208 -0.381) (xy -1.3208 0.381) (xy -0.3048 0)
@@ -2826,6 +2831,52 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -2852,17 +2903,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "P_Mosfet_1_1"
 				(pin input line
@@ -2876,24 +2916,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2919,10 +2941,31 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -3039,6 +3082,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:VDC"
 			(power)
@@ -3116,7 +3160,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3128,7 +3172,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -3142,7 +3186,8 @@
 			(symbol "VDC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VDC"
 						(effects
 							(font
@@ -3159,9 +3204,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:Varistor"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -3240,23 +3288,23 @@
 				)
 			)
 			(symbol "Varistor_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
 					)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3302,6 +3350,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TrainSymbol:XL1509"
 			(pin_names
@@ -3392,17 +3441,35 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 7.62 180)
+				(pin power_in line
+					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "OUTPUT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.4986 1.4986)
 							)
 						)
 					)
-					(number "2"
+					(number "6"
+						(effects
+							(font
+								(size 1.4986 1.4986)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.4986 1.4986)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.4986 1.4986)
@@ -3421,6 +3488,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.4986 1.4986)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.4986 1.4986)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.4986 1.4986)
@@ -3447,7 +3532,7 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 -7.62 0)
+					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -3456,25 +3541,7 @@
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.4986 1.4986)
@@ -3500,26 +3567,220 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.4986 1.4986)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 152.4 15.24)
+		(end 259.08 77.47)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 233f7f2c-21fc-40cf-b8a3-bf0d37f7b707)
+	)
+	(rectangle
+		(start 13.97 15.24)
+		(end 151.13 77.47)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 40bd5793-e8d5-4406-86bf-f0284a0b793b)
+	)
+	(rectangle
+		(start 13.97 78.74)
+		(end 259.08 143.51)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5dce53af-919e-4655-aa35-12c353036b2e)
+	)
+	(rectangle
+		(start 53.34 24.13)
+		(end 78.74 57.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6d5e9cab-f1ee-48e0-bb1d-abdda8d6939b)
+	)
+	(text "5V -> 3V3\n"
+		(exclude_from_sim no)
+		(at 162.56 76.2 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ac11ade-c1f3-45c6-ac37-2329ef69a272")
+	)
+	(text "Lưu ý đây là IC cố định điện áp đầu ra \nnên cần mua đúng mã 5V \n\nđối với 1 số IC BUCK (hạ áp) điều chỉnh \nsẽ có cặp điện trở hồi tiếp \ngọi là VFB hoặc VSEN tùy nhà sản xuất\n	nên chọn các IC của hãng TI (Texas Instruments)\n	vì tài liệu viết rất đầy đủ \ntại đây không chọn IC của TI vì nó khá đắc"
+		(exclude_from_sim no)
+		(at 194.31 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "16768b41-cf7a-473b-ba15-15fbb2f7b6bc")
+	)
+	(text "đây là đường hồi tiếp của IC\nđối với các IC tùy chỉnh sẽ có cặp điện trở ở đây"
+		(exclude_from_sim no)
+		(at 139.7 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "17fef52a-de09-4ed8-967e-43c4d5bada0e")
+	)
+	(text "LƯU Ý: \nở thiết kế này mạch không sử dụng nguồn từ pin \nlựa chọn IC chưa cần quan tâm đến dòng rò không tải \n\nKHI THIẾT KẾ PIN, các bạn cần quan tâm thông số \nQuiescent Current IQ: biểu thị tiêu hao của IC nguồn khi không có tải \n(mạch không có tải vì vi điều khiển thường \"đi ngủ\" để tiết kiệm pin)"
+		(exclude_from_sim no)
+		(at 13.97 224.79 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "2c938212-3219-4624-baaa-0363f6b904f5")
+	)
+	(text "chuyển đổi công suất ta sẽ cần dòng điện ở 12V là \nI = 10W / 12V = 0.83A \n=> từ đó chọn cầu chì 0.9-1.2A "
+		(exclude_from_sim no)
+		(at 49.53 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cd9b5eb-307e-4a55-942d-141c2d6c2671")
+	)
+	(text "mạch lọc nhiễu EMI \nEMI là gì? \ncác bạn GG nha"
+		(exclude_from_sim no)
+		(at 53.34 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e778d72-bee3-44aa-9ddf-e00fbcdec1ff")
+	)
+	(text "Lưu ý\nđây là cầu chì bảo vệ tín hiệu DC \nchưa có bảo vệ tải AC\nnếu yêu cầu cần, ta cần xem xét để chọn "
+		(exclude_from_sim no)
+		(at 16.51 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "8e663bf3-0b08-41e4-9d77-461644ea6d08")
+	)
+	(text "IC chuyển đổi điện áp DC-DC ở chế độ hạ áp sẽ gồm 2 loại:\nLDO: hạ áp tuyến tính - đơn cử là AMS1117 \n	dùng cho tải tiêu thụ dòng thấp ( <= 1.5A), chênh lệch áp vào và áp ra thấp \n	nếu không LDO sẽ rất nóng => hiệu suất giảm dần \n	sơ đồ đơn giản, ít linh kiện\n	nhiễu thấp, an toàn cho các IC nhạy cảm \n\nBUCK: ic nguồn xung hạ áp -đơn cử XL1509\n	dùng cho tải tiêu thụ dòng thấp, trung và cao, chênh lệch đầu vào có thể lớn \n	hiệu suất tốt hơn\n	nhưng sơ đồ phức tạp hơn, nhiều thành phần\n	biên độ dao động cao hơn nhiễu nhiều hơn\n	cần lọc tốt nếu không sẽ gây EMI "
+		(exclude_from_sim no)
+		(at 16.51 170.18 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "9109797f-bc1f-4b98-8b5b-456942064ee3")
+	)
+	(text "thông số cầu chì dựa vào công suất đầu ra(10W)\nI = 10W/220V = 45mA \ngiá trị nhỏ nhất cầu chì\ncó thể mua được ở thegioiic: 300mA \nvậy chọn 300mA "
+		(exclude_from_sim no)
+		(at 16.51 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8a47992-76b3-480e-b95e-26705fc28a65")
+	)
+	(text "vì cần công suất nguồn 10W nên ta sẽ chọn \nHLK 10M05 hoặc 10M12, 10M24(cần qua mạch buck bên dưới)"
+		(exclude_from_sim no)
+		(at 83.82 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2502b15-409c-45d1-b4ea-13435d7b8f75")
+	)
+	(text "220VAC -> 5V"
+		(exclude_from_sim no)
+		(at 17.78 74.93 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2970f85-e8f2-44a9-876d-d513837086f6")
+	)
+	(text "12-24VDC -> 5VDC"
+		(exclude_from_sim no)
+		(at 19.05 140.97 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "eac3f7a3-8e47-44e9-8c55-71276688d9fc")
+	)
+	(text "tổng tải tiêu thụ 3.3V\n- esp32: 240-260mA \n- SD card: 30mA \n- SHT31: 1.5mA\n- 2 opto: 40mA \n- PCF8563: 0.1mA\n- DS3231: 0.2mA \n=> tổng 331mA \nnhân hệ số an toàn 2 hoặc 3 \ntối đa được 990mA \ncó thể dùng được AMS1117-33\ndòng tối đa 1A \n"
+		(exclude_from_sim no)
+		(at 226.06 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f81dc45a-9074-4968-a103-21c636358c5e")
+	)
+	(text "tổng tải tiêu thụ 5V\n- quy đổi công suất từ 3.3V \n	I = 3.3V*1A*1.5(hệ số an toàn, tiêu hao nhiệt) / 5V = 1A \n- 4 relay: 4*40mA = 160mA \n- ACS712: 13mA \n- buzzer: 22mA \n- B0505: 19mA \n- DWIN: 500mA \n=> tổng 1.55A \nnhân hệ số an toàn 1.2 = 1.86A \ncó thể dùng XL1509 2A \nhoặc công suất nguồn cần 10W"
+		(exclude_from_sim no)
+		(at 194.31 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb0f6e41-9e69-47ec-ad0c-5240f93540b7")
 	)
 	(junction
 		(at 163.195 114.3)
@@ -4828,54 +5089,6 @@
 			(type default)
 		)
 		(uuid "fb86b615-6f25-4a3a-99c4-011a2bb7d292")
-	)
-	(rectangle
-		(start 152.4 15.24)
-		(end 259.08 77.47)
-		(stroke
-			(width 0.5)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 233f7f2c-21fc-40cf-b8a3-bf0d37f7b707)
-	)
-	(rectangle
-		(start 13.97 15.24)
-		(end 151.13 77.47)
-		(stroke
-			(width 0.5)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 40bd5793-e8d5-4406-86bf-f0284a0b793b)
-	)
-	(rectangle
-		(start 13.97 78.74)
-		(end 259.08 143.51)
-		(stroke
-			(width 0.5)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5dce53af-919e-4655-aa35-12c353036b2e)
-	)
-	(rectangle
-		(start 53.34 24.13)
-		(end 78.74 57.15)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6d5e9cab-f1ee-48e0-bb1d-abdda8d6939b)
 	)
 	(image
 		(at 149.86 224.79)
@@ -7455,175 +7668,29 @@
 			"1NhB7XW+1DPt7xvBsjWuj/ODk6RH+wdEvc0DkV4LG9uWWp+XyLK+tRWlhfkHvXpXACJtEyub1joN"
 			"GTFVb8XpMYGBMam5Mq6KfkvrtqbqXzRJ5yd0bnKIX3BCZjFHpamFnbWxyjcbMvtSmLzEQN/QxGwp"
 			"X725tV1bPVzrFSGEEEIIIYS+Hf/DMQ6EEEIIIYQQQgj9QHC6DkIIIYQQQgghhH4EGONACCGEEEII"
-			"IYTQj+D/AD/IFsj5ImGIAAAAAElFTkSuQmCC"
+			"IYTQj+D/AD/IFsj5ImGIAAAAAElFTkSuQmCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
-	)
-	(text "5V -> 3V3\n"
-		(exclude_from_sim no)
-		(at 162.56 76.2 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 0.8)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ac11ade-c1f3-45c6-ac37-2329ef69a272")
-	)
-	(text "Lưu ý đây là IC cố định điện áp đầu ra \nnên cần mua đúng mã 5V \n\nđối với 1 số IC BUCK (hạ áp) điều chỉnh \nsẽ có cặp điện trở hồi tiếp \ngọi là VFB hoặc VSEN tùy nhà sản xuất\n	nên chọn các IC của hãng TI (Texas Instruments)\n	vì tài liệu viết rất đầy đủ \ntại đây không chọn IC của TI vì nó khá đắc"
-		(exclude_from_sim no)
-		(at 194.31 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "16768b41-cf7a-473b-ba15-15fbb2f7b6bc")
-	)
-	(text "đây là đường hồi tiếp của IC\nđối với các IC tùy chỉnh sẽ có cặp điện trở ở đây"
-		(exclude_from_sim no)
-		(at 139.7 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "17fef52a-de09-4ed8-967e-43c4d5bada0e")
-	)
-	(text "LƯU Ý: \nở thiết kế này mạch không sử dụng nguồn từ pin \nlựa chọn IC chưa cần quan tâm đến dòng rò không tải \n\nKHI THIẾT KẾ PIN, các bạn cần quan tâm thông số \nQuiescent Current IQ: biểu thị tiêu hao của IC nguồn khi không có tải \n(mạch không có tải vì vi điều khiển thường \"đi ngủ\" để tiết kiệm pin)"
-		(exclude_from_sim no)
-		(at 13.97 224.79 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left)
-		)
-		(uuid "2c938212-3219-4624-baaa-0363f6b904f5")
-	)
-	(text "chuyển đổi công suất ta sẽ cần dòng điện ở 12V là \nI = 10W / 12V = 0.83A \n=> từ đó chọn cầu chì 0.9-1.2A "
-		(exclude_from_sim no)
-		(at 49.53 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3cd9b5eb-307e-4a55-942d-141c2d6c2671")
-	)
-	(text "mạch lọc nhiễu EMI \nEMI là gì? \ncác bạn GG nha"
-		(exclude_from_sim no)
-		(at 53.34 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5e778d72-bee3-44aa-9ddf-e00fbcdec1ff")
-	)
-	(text "Lưu ý\nđây là cầu chì bảo vệ tín hiệu DC \nchưa có bảo vệ tải AC\nnếu yêu cầu cần, ta cần xem xét để chọn "
-		(exclude_from_sim no)
-		(at 16.51 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "8e663bf3-0b08-41e4-9d77-461644ea6d08")
-	)
-	(text "IC chuyển đổi điện áp DC-DC ở chế độ hạ áp sẽ gồm 2 loại:\nLDO: hạ áp tuyến tính - đơn cử là AMS1117 \n	dùng cho tải tiêu thụ dòng thấp ( <= 1.5A), chênh lệch áp vào và áp ra thấp \n	nếu không LDO sẽ rất nóng => hiệu suất giảm dần \n	sơ đồ đơn giản, ít linh kiện\n	nhiễu thấp, an toàn cho các IC nhạy cảm \n\nBUCK: ic nguồn xung hạ áp -đơn cử XL1509\n	dùng cho tải tiêu thụ dòng thấp, trung và cao, chênh lệch đầu vào có thể lớn \n	hiệu suất tốt hơn\n	nhưng sơ đồ phức tạp hơn, nhiều thành phần\n	biên độ dao động cao hơn nhiễu nhiều hơn\n	cần lọc tốt nếu không sẽ gây EMI "
-		(exclude_from_sim no)
-		(at 16.51 170.18 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left)
-		)
-		(uuid "9109797f-bc1f-4b98-8b5b-456942064ee3")
-	)
-	(text "thông số cầu chì dựa vào công suất đầu ra(10W)\nI = 10W/220V = 45mA \ngiá trị nhỏ nhất cầu chì\ncó thể mua được ở thegioiic: 300mA \nvậy chọn 300mA "
-		(exclude_from_sim no)
-		(at 16.51 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a8a47992-76b3-480e-b95e-26705fc28a65")
-	)
-	(text "vì cần công suất nguồn 10W nên ta sẽ chọn \nHLK 10M05 hoặc 10M12, 10M24(cần qua mạch buck bên dưới)"
-		(exclude_from_sim no)
-		(at 83.82 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c2502b15-409c-45d1-b4ea-13435d7b8f75")
-	)
-	(text "220VAC -> 5V"
-		(exclude_from_sim no)
-		(at 17.78 74.93 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2970f85-e8f2-44a9-876d-d513837086f6")
-	)
-	(text "12-24VDC -> 5VDC"
-		(exclude_from_sim no)
-		(at 19.05 140.97 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 0.8)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "eac3f7a3-8e47-44e9-8c55-71276688d9fc")
-	)
-	(text "tổng tải tiêu thụ 3.3V\n- esp32: 240-260mA \n- SD card: 30mA \n- SHT31: 1.5mA\n- 2 opto: 40mA \n- PCF8563: 0.1mA\n- DS3231: 0.2mA \n=> tổng 331mA \nnhân hệ số an toàn 2 hoặc 3 \ntối đa được 990mA \ncó thể dùng được AMS1117-33\ndòng tối đa 1A \n"
-		(exclude_from_sim no)
-		(at 226.06 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f81dc45a-9074-4968-a103-21c636358c5e")
-	)
-	(text "tổng tải tiêu thụ 5V\n- quy đổi công suất từ 3.3V \n	I = 3.3V*1A*1.5(hệ số an toàn, tiêu hao nhiệt) / 5V = 1A \n- 4 relay: 4*40mA = 160mA \n- ACS712: 13mA \n- buzzer: 22mA \n- B0505: 19mA \n- DWIN: 500mA \n=> tổng 1.55A \nnhân hệ số an toàn 1.2 = 1.86A \ncó thể dùng XL1509 2A \nhoặc công suất nguồn cần 10W"
-		(exclude_from_sim no)
-		(at 194.31 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb0f6e41-9e69-47ec-ad0c-5240f93540b7")
 	)
 	(label "B"
 		(at 71.12 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7634,7 +7701,6 @@
 	)
 	(label "A"
 		(at 60.325 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7645,7 +7711,6 @@
 	)
 	(label "VOUT"
 		(at 170.815 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

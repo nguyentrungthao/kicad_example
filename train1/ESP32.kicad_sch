@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "bd2610a9-37df-4b57-aa50-f6e576a01f28")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x07_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,57 +83,86 @@
 				)
 			)
 			(symbol "Conn_01x07_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
+				(rectangle
+					(start 0.8636 7.747)
+					(end 0 7.493)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 1.27 7.62) (xy 0.8636 7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -155,7 +186,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 7.62) (xy 0.8636 7.62)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -165,81 +196,52 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -369,11 +371,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -471,9 +478,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -546,7 +556,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -558,7 +568,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -607,9 +617,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -728,6 +741,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "RF_Module:ESP32-WROOM-32D"
 			(exclude_from_sim no)
@@ -810,6 +824,205 @@
 				)
 			)
 			(symbol "ESP32-WROOM-32D_1_1"
+				(pin input line
+					(at -15.24 30.48 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 25.4 0)
+					(length 2.54)
+					(name "SENSOR_VP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 22.86 0)
+					(length 2.54)
+					(name "SENSOR_VN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "SDO/SD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "SDI/SD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "SHD/SD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "SWP/SD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "SCK/CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "SCS/CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -27.94 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 35.56 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 0 -35.56 90)
 					(length 2.54)
@@ -821,6 +1034,369 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 30.48 180)
+					(length 2.54)
+					(name "IO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 27.94 180)
+					(length 2.54)
+					(name "TXD0/IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 25.4 180)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 22.86 180)
+					(length 2.54)
+					(name "RXD0/IO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 20.32 180)
+					(length 2.54)
+					(name "IO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 17.78 180)
+					(length 2.54)
+					(name "IO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name "IO12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "IO13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "IO14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "IO15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "IO16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "IO17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "IO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "IO19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "IO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "IO22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "IO23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -883,16 +1459,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 10.16 180)
+					(at 15.24 -20.32 180)
 					(length 2.54)
-					(name "IO14"
+					(name "IO32"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -901,538 +1477,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 15.24 180)
+					(at 15.24 -22.86 180)
 					(length 2.54)
-					(name "IO12"
+					(name "IO33"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -35.56 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 12.7 180)
-					(length 2.54)
-					(name "IO13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -5.08 0)
-					(length 2.54)
-					(name "SHD/SD2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -7.62 0)
-					(length 2.54)
-					(name "SWP/SD3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -12.7 0)
-					(length 2.54)
-					(name "SCS/CMD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 35.56 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -10.16 0)
-					(length 2.54)
-					(name "SCK/CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 0 0)
-					(length 2.54)
-					(name "SDO/SD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -2.54 0)
-					(length 2.54)
-					(name "SDI/SD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 2.54)
-					(name "IO15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 25.4 180)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 30.48 180)
-					(length 2.54)
-					(name "IO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 20.32 180)
-					(length 2.54)
-					(name "IO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 5.08 180)
-					(length 2.54)
-					(name "IO16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 2.54 180)
-					(length 2.54)
-					(name "IO17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 17.78 180)
-					(length 2.54)
-					(name "IO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 30.48 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "IO18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(name "IO19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 -27.94 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 2.54)
-					(name "IO21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 22.86 180)
-					(length 2.54)
-					(name "RXD0/IO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 27.94 180)
-					(length 2.54)
-					(name "TXD0/IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -7.62 180)
-					(length 2.54)
-					(name "IO22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -10.16 180)
-					(length 2.54)
-					(name "IO23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -35.56 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -35.56 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 25.4 0)
-					(length 2.54)
-					(name "SENSOR_VP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 22.86 0)
-					(length 2.54)
-					(name "SENSOR_VN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1476,48 +1530,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -20.32 180)
-					(length 2.54)
-					(name "IO32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -22.86 180)
-					(length 2.54)
-					(name "IO33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1598,10 +1621,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -1610,9 +1632,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1658,6 +1681,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
@@ -1735,7 +1759,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1747,7 +1771,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1761,7 +1785,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3"
 						(effects
 							(font
@@ -1778,6 +1803,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
@@ -1855,7 +1881,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1867,7 +1893,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1881,7 +1907,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -1898,6 +1925,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -1977,7 +2005,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1994,7 +2023,212 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 220.98 20.32)
+		(end 259.08 152.4)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 491c4ab8-c846-43a4-bcd8-0d29a2588e98)
+	)
+	(rectangle
+		(start -67.31 331.47)
+		(end 144.78 344.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9f7a7bf4-18f2-4d54-80b7-460fffe9a0a3)
+	)
+	(rectangle
+		(start -67.31 212.09)
+		(end 372.11 331.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fe6e947d-c39b-4abc-bbb2-235a7a65153a)
+	)
+	(text "ESP32 WROOM 32E"
+		(exclude_from_sim no)
+		(at 27.94 147.32 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "173470a8-b12d-4dd2-9b5e-0019bff2fad3")
+	)
+	(text "hàng rào nạp code cho esp32 thông qua mạch nạp UART"
+		(exclude_from_sim no)
+		(at 149.86 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21865d6a-b1f8-42e5-89c0-6ac33baf3476")
+	)
+	(text "https://randomnerdtutorials.com/esp32-pinout-reference-gpios/\nlựa chọn chân nhanh thì vào web này để tìm. \nnhưng khi các bạn vẽ con mới thì sẽ \nkhông có được tổng hợp sẵn như thế này mà phải đọc datashet \n\nđặt điểm của ESP32-wroom-32-e\n- là có 4 chân chỉ INPUT \n- có các chân strapping PWM at boot: \n	khi mới cấp điện những chân này sẽ bị bật tắt liên tục, không thích hợp chọn làm chân relay\n	vì nếu bạn dùng relay này bật tắt các động cơ hoặc các tải lớn, việc bật tắt liên tục gây hồ quang \n	=> hỏng relay hoặc tệ hơn hỏng thiết bị \n- hỗ trợ 2 kênh ADC nhưng bạn chỉ nên dùng những chân ADC1, vì nếu dùng ADC2 sẽ không dùng được Wifi"
+		(exclude_from_sim no)
+		(at -111.76 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "246228b1-dd74-4a8f-bf64-1f01bfef9ba6")
+	)
+	(text "xem chân của esp trong datasheet"
+		(exclude_from_sim no)
+		(at -64.77 317.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "29f2ed6b-945c-467c-9a6b-0034d727e3b8")
+	)
+	(text "RST - BOOT Button"
+		(exclude_from_sim no)
+		(at 139.065 151.13 0)
+		(effects
+			(font
+				(size 5 5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "34e35978-8bb3-4d80-943a-cccf113a9608")
+	)
+	(text "NHƯNG VIỆC CHỌN CHÂN KHÔNG ĐÚNG CÓ THỂ LÀM ESP32 KHÔNG THỂ CHẠY ĐƯỢC CODE\nhoặc các ngoại vi (I2C, UART, SPI) không thể chạy được "
+		(exclude_from_sim no)
+		(at 53.34 341.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "376dff6e-7310-4441-87d8-9f04c7f1ea8f")
+	)
+	(text "đối với trở kéo I2C \nnên để ở SCH vi điều khiển"
+		(exclude_from_sim no)
+		(at 228.6 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e2544a1-8993-4e05-911f-adba1b3b69b1")
+	)
+	(text "đây là các chân strapping\nesp32 dùng các chân này để cấu hình boot \nnếu bạn dùng ko đúng ESP32 có thể không nạp được code,\nhoặc không thể chạy code \n\nbạn nên hiểu chân đó được cấu hình mặc định kéo lên(pull up) hay kéo xuống (pull down)\ntừ đó kết nối chân đó với ngoại vi phù hợp, vừa tận dụng chân vừa không bị lỗi \n\nví dụ: \nchân MTDI(GPIO12) mặc định kéo xuống, bạn không được kết nối với nút nhấn hoặc dùng làm I2C sẽ bị trở kéo lên từ đó esp không boot được \nbạn có thể dùng nó bật tắt MOSFET điều khiển RELAY, tận dụng được trở kéo xuống trong mạch RELAY đảm bảo logic\n\nchân GPIO15 được kéo lên bạn có thể dùng để đọc input kéo lên, hoặc đọc nút nhấn "
+		(exclude_from_sim no)
+		(at 106.68 279.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "4b514d77-86d9-4def-813f-53326e82a595")
+	)
+	(text "đây là bus alias definations"
+		(exclude_from_sim no)
+		(at 226.06 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b9e1380-ff0c-413b-af30-789547df13ca")
+	)
+	(text "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf\ndatasheet của esp32"
+		(exclude_from_sim no)
+		(at -21.59 336.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abbceee3-17f9-4c1d-b96c-e3bc2136cdc0")
+	)
+	(text "ESP32 hỗ trợ IO matrix tức là cho phép các ngoại vi được chọn chân tùy thích \nđiều này khá hay cho hardware vì có thể đổi chân để việc đi dây dễ dàng hơn \n"
+		(exclude_from_sim no)
+		(at 53.34 335.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c9e0d75c-b0df-4f4e-b712-fe8e67f56cfe")
+	)
+	(text "I2C\nresistor"
+		(exclude_from_sim no)
+		(at 227.33 72.39 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9e79eac-750d-4112-8e2b-21d4ce18a059")
+	)
+	(text "đây là cách các bạn chọn chân cho các ngoại vi giao tiếp(I2C, UART, SPI)\ncác bạn seach tên chuẩn giao tiếp sẽ có hướng dẫn  \n\nví dụ: với I2C\nMặc dù Datasheet bảo bạn có thể chọn bất kỳ chân nào của ESP32 cho I2C\nnhưng bạn cũng cần né các cân strapping như đã nói\nvà các chân chỉ INPUT của ESP32"
+		(exclude_from_sim no)
+		(at 255.27 307.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8bd5e46-f40c-473f-8754-003e0af210aa")
+	)
+	(text "ESP32 tiêu tụ khoảng 240-260mA khi chạy tất cả các ngoại vi, Wifi và bluetooth\ntheo \n- https://deepbluembedded.com/esp32-sleep-modes-power-consumption/\n- https://lastminuteengineers.com/esp32-sleep-modes-power-consumption/#:~:text=ESP32%20Active%20Mode,-Normal%20mode%20is&text=Since%20everything%20is%20always%20active,and%20Bluetooth%20are%20used%20simultaneously."
+		(exclude_from_sim no)
+		(at 29.21 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4367986-54c0-4f76-8cbe-b91ffef4ca4e")
 	)
 	(junction
 		(at 184.15 131.445)
@@ -3230,42 +3464,6 @@
 			(type default)
 		)
 		(uuid "ff150952-6397-4433-bb07-94c5a751fece")
-	)
-	(rectangle
-		(start 220.98 20.32)
-		(end 259.08 152.4)
-		(stroke
-			(width 0.5)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 491c4ab8-c846-43a4-bcd8-0d29a2588e98)
-	)
-	(rectangle
-		(start -67.31 331.47)
-		(end 144.78 344.17)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9f7a7bf4-18f2-4d54-80b7-460fffe9a0a3)
-	)
-	(rectangle
-		(start -67.31 212.09)
-		(end 372.11 331.47)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid fe6e947d-c39b-4abc-bbb2-235a7a65153a)
 	)
 	(image
 		(at 312.42 255.27)
@@ -5214,7 +5412,25 @@
 			"lYWCgoKCgoKCgoLyrwQ15VFQUFBQUFBQUFD+laCmPAoKCgoKCgoKCsq/EtSUR0FBQUFBQUFBQflX"
 			"gpryKCgoKCgoKCgoKP9KUFMeBQUFBQUFBQUF5V8JasqjoKCgoKCgoKCg/CtBTXkUFBQUFBQUFBSU"
 			"fyWoKY+CgoKCgoKCgoLyrwQ15VFQUFBQUFBQUFD+laCmPAoKCgoKCgoKCsq/EtSUR0FBQUFBQUFB"
-			"QflX8v8AzY2R95I+tgYAAAAASUVORK5CYII="
+			"QflX8v8AzY2R95I+tgYAAAAASUVORK5CYIIAUQBCAEYATQBCAGoAbABIAGcAeQArAHIAdABqADUA"
+			"MgB2AFUAZgBvAG8ANAA2AG8AYgBLAE0AZwAyAGoAcgBUAGwAawAxAGQATwAwAGsAWABkADMANgBu"
+			"AEEAagBhAFEAMwB0AGQALwBlAHQAagA0AEoAWQBRADYANAAyAEsAeABtAHEAOABmAEQAcABQAHAA"
+			"NQBmAE4ANwBxAEQAdQBFADIAawBrAEEAQQBCAEEAcQBwAE0AegBlAEoAWQBUAFIAZAA5AEEAUQBL"
+			"AHEAVABNAHIAZwBXADQAKwB0AFgAQQAxAGgAcABqAEYAeABEAHEAcgAzAGcAMwBSADEAVwBXAG0A"
+			"VwBPAFAAdABXADIALwByADkARQBjADMALwAzADAAMABWAHYAbAA4AHkALwBlADAANQBMAFIAWQAv"
+			"AEkAcABsAGQAUgArAHMAKwAwAEgASgBTAFUAcQBWAE8ALwBpAFkAWABVAGUANwBIAGIANwA0AEUA"
+			"UgB2AHYAMAB5AGoAWQAzAGwAMgBFAFcAMQBYAEUAdQBMAEIAVwBPADEATQB0AE8AcABkAG4ASQBO"
+			"AHAAYQBzADMAdAByAG0AaQAwAGQASwBWAEIAbABOADMAaABIAFEANQBvADYASwBGAHMAUQBvAFkA"
+			"bABQADUAegBIAFMAYgBrAHgAWgBUAFIAVgBQAG4ARABLAFoASwBSAGMAYwBEAFEAegBHADIAegBn"
+			"ADAAOAA3AGQAdgA5ADQAcwA0AHMANQBxAEUANwBPADQARgBrAEkANwBDAGQAcQBtAGUANAA1ADMA"
+			"WABQAHQANgBvAC8AOQB1AGsAZgBwAEcAMQBGAHEANgBEAFYAMQAyAG4AcgBUAE4AZwAzAFoATQBF"
+			"AFoARABIAG8AQQBXAG0AZwB6AE4AUwA2ADIAcwBNAGIATwBxAFgAeABsAFEAMABsAHQALwAwAHAA"
+			"MgA5ADUAdgBPAFkAdgBuAEgAYQBSAG8AbwBLAHIATgBwAGMAaAByAHoASAAvAEgANAA3AGgAKwBQ"
+			"ADkAbgBxAC8ARQArADYAcwBFAGkARAByAGUAZgB6ADgAOABzAFgATAAyAGkAcAA2ADYAeQAvAFMA"
+			"dABEAFEAaABGADIAWgBXAEcAbwB6AGYALwB2AGYAagBLAG8AbABUAEoAWAA0AGIAOABNAEEAZwBZ"
+			"ADkAaABOAHMAZQBVAEkAWQBHAFoAOAAvAEoAeABWAHoAVgBFAHkANwA5AGUAcABtAHAAQwBUADUA"
+			"QwA1ADEAVABKAHEAYwBrADYAZABQAFgAagBBAHEAUwBsAG8AVgBqAE4AMABlAEQARABqAGEAegBv"
+			"AHoAVgBoAEYANgBmAEUASgBtAFMAVQBBAA=="
 		)
 	)
 	(image
@@ -5659,7 +5875,25 @@
 			"89AI3UG6g/AeJ93BTlW127Zt76kLuZxGd3AA3UF4iJPuoA5ttmo6ksk3ovHZQVfFMbqD/egOwkuc"
 			"dQcVf65h9WqF6vaE3Y2jO0h3EJ5DdzBLg+gOwts80R10mBLzcXHsurLeHfTp6wMPoziWJemKY1np"
 			"Dh6rGLguSHEMOUBxLEsojsG3uJsIMB1bADAdWwAwHd1BwBTp/qVweAsAMBO/EQCmYwsApmMLAKb7"
-			"f39xpbh+CEaCAAAAAElFTkSuQmCC"
+			"f39xpbh+CEaCAAAAAElFTkSuQmCCJgIAAAEAAAAAAAAAAAAAAAAAAABi+CRJAL0EgMC83QkmAgAA"
+			"AwAAAAAAAABA66wJJgIAAAEAAAAAAAAAAAAAAAAAAABl+CtJAL4EgAAAAAAAAAAAAwAAAAAAAABw"
+			"66wJJgIAAAEAAAAAAAAAAAAAAAAAAAB4+C5JAL8EgAAAAAAAAAAACAAAAAAAAABwG98JJgIAAAEA"
+			"AAAAAAAAAAAAAAAAAAB7+C1JAMAEgFC63QkmAgAAAwAAAAAAAACQud0JJgIAAAEAAAAAAAAAAAAA"
+			"AAAAAAB++DBJAMEEgAAAAAAAAAAAAwAAAAAAAACwAN4JJgIAAAEAAAAAAAAAAAAAAAAAAABx+DdJ"
+			"AMIEgAAAAAAAAAAAAwAAAAAAAADQ/d0JJgIAAAEAAAAAAAAAAAAAAAAAAAB0+DpJAMMEgGC/3Qkm"
+			"AgAAAwAAAAAAAABw/d0JJgIAAAEAAAAAAAAAAAAAAAAAAAB3+DlJAMQEgAAAAAAAAAAAAwAAAAAA"
+			"AADg6qwJJgIAAAEAAAAAAAAAAAAAAAAAAABK+DxJAMUEgBC73QkmAgAAAwAAAAAAAADQ/90JJgIA"
+			"AAEAAAAAAAAAAAAAAAAAAABN+ANJAMYEgAAAAAAAAAAACAAAAAAAAADwHt8JJgIAAAEAAAAAAAAA"
+			"AAAAAAAAAABA+AZJAMcEgEM6L1dJTkRPV1MvZm9udHNcY291cmUuZm9uAAAAAAAAAAAAAAAAAABD"
+			"+AVJAMgEgAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAABG+AhJAMkEgAC5"
+			"3QkmAgAAAwAAAAAAAAAQ+90JJgIAAAEAAAAAAAAAAAAAAAAAAABZ+A9JAMoEgDC53QkmAgAAAwAA"
+			"AAAAAACw+90JJgIAAAEAAAAAAAAAAAAAAAAAAABc+BJJAMsEgAAAAAAAAAAAAwAAAAAAAABg66wJ"
+			"JgIAAAEAAAAAAAAAAAAAAAAAAABf+BFJAMwEgAAAAAAAAAAACAAAAAAAAABwF98JJgIAAAEAAAAA"
+			"AAAAAAAAAAAAAABS+BRJAM0EgEM6L1dJTkRPV1MvZm9udHNcY291cmVlLmZvbgAAAAAAAAAAAAAA"
+			"AABV+BtJAM4EgEM6L1dJTkRPV1MvZm9udHNcY291cmVnLmZvbgAAAAAAAAAAAAAAAACo+B5JAM8E"
+			"gAAAAAAAAAAACAAAAAAAAACwE98JJgIAAAEAAAAAAAAAAAAAAAAAAACr+B1JANAEgAAAAAAAAAAA"
+			"AwAAAAAAAACg6qwJJgIAAAEAAAAAAAAAAAAAAAAAAACu+OBJANEEgIC93QkmAgAAAwAAAAAAAADQ"
+			"+d0JJgIAAAEAAAAAAAAAAAAAAA=="
 		)
 	)
 	(image
@@ -9845,7 +10079,25 @@
 			"bfM5McVzHGP+Mx3T/+WrLugS/d9M/upNNPMi/kvif/OF/N+S/3hBGQ+nvBP/bTT5qvIfigkqfHUi"
 			"/ymoYB7h/0vz/+kL85/scz+V5gnbjfn/dIT/99f/a/i3tlQzL++6kH+/DdP5n4rXW5sGhsQtuJVr"
 			"+ddSpjfgvw2RHAPAPfg/n/9XIrbb+R/zfzzAewX/xd9Plua/aa3cI+e/Pg3x93dENxVV/T+1W/Oy"
-			"yG9dKgAAAABJRU5ErkJggg=="
+			"yG9dKgAAAABJRU5ErkJgggBSAHcAcgBoAGcAZQAxAEoAcQBNAE8ATgAyAHMAWgB0AHkAcQB0AGIA"
+			"WQBSAE4AVgBzAEwANQA3AHEAOQBCAC8AVwBlAFYAdABIAHAAZABGADUAZQBYAGgANABVAEIATwB3"
+			"AEIAUQBSAEEAcQBsAGYAcgBpAEsAZQBYAGwANQBkAFcAcABVADYAZQBtAFoAbQB4AEQANgB4AGYA"
+			"bwBkAEgAcgBMAHoANQBwAEQARQBNAFIAawBNAGgAMwBlADMANwBHAEYAZQBXAEgAMgBkACsAVAB4"
+			"AGUARwA3AFYAawB6AFYAegBmADAAYwBTAHEANQBEADcATwB6AHAATQBhAG0AcABxAFgARgB4AGMA"
+			"cQA2ADkAZgBTAEUAMQBOADcAZAB5ADUAYwB5AHYASwBZAEQAOABlAHQAQwBPAGQAVwArADAAWQBC"
+			"ADgAagA5AEgAWgBzAEgAdQBiACsAagBPADAARAB1ADcAOQBoAE0AeQBQADAAZABnAFEAdgAyAGQA"
+			"NAB5AEoAaQBmAEgAbwAvAFIAMQBqAFkAbQBMAGMAYQBuAGEANAArAGIAegBBACsAegBzADYAawBO"
+			"AEcATgBmAG8ATwBSAGsASgBDAFEAawBKAEMAUQBrAEoAQwBRAGsASgBDAFEAawBKAEIANABLAE4A"
+			"RAB5ADUAYwB0AGIAVwA0AFkAVwBRAHEALwBYAFYAMQBaAFcARQByADUAVwAwAGsAbQBMADgAbwBx"
+			"AHIASQBaADcAQQBtAHcAWQBBAG8AaQB3AHIAZgBDAHkAbABjAEEAWABlAFQAbAB6AFUAUQBhAFYA"
+			"UwBHAFEAeQBHAHAAMAB6AFIAdwBUAEEATQBBAFAARABjAEMAVgBFAGoAVwBxADIAVwB5AFcAUwBh"
+			"AFYAaQBqAEIASgBYAGMAdQBQAC8AWQBLAEMAMgBSAFQAQQBBAEMAcQB2AEoAdABKAGwAVgA1AEkA"
+			"egBwAFgAcgA5ADcASwB5AHMANwBPAHoAYwAwAHAAMAB2AG0ARwBCAFcATwBHAC8ASgAwADUAZAB6"
+			"ADQAZgA5AHcAcwBWAGMANwBNAG0AOQBkAEoAVwAvAGkAQQBzAHEATQA1AEkASwBvAEsAQQBBAGwA"
+			"bABQAFcATwBTAEUASQBRAHEAUABSAGEAdAA5AFIAbwBHAFgASgBOADAAdgA1AG8AWAA1AGUAQQBL"
+			"AEQAUwA5AEsAUgA4AHEAagA3AHIANQBOAG4ARQBoADQALwBsAGsARgArAHcASAA0AHMASwBGADEA"
+			"NAA3AGQASwBiAHUARQBnAEIAVgAvAHEAVgA5AGUAMAA5AG4AYQBnAE4AagBPAGcAaABBADQAYgBW"
+			"AEQAWgAyADUAbQBQAE0AeQ=="
 		)
 	)
 	(image
@@ -11580,7 +11832,25 @@
 			"AAD/am23QQcAAAAAAADggnezAQAAAAAAUCCwQQcAAAAAAECBwAYdAAAAAAAABQIbdAAAAAAAABQI"
 			"bNABAAAAAABQILBBBwAAAAAAQIHABh0AAAAAAAAFAht0AAAAAAAAFAhs0AEAAAAAAFAgsEEHAAAA"
 			"AABAgcAGHQAAAAAAAAUCG3QAAAAAAAAUCGzQAQAAAAAAUCCwQQcAAAAAAECBwAYdAAAAAAAABQIb"
-			"dAAx0zVWAAAAF0lEQVQAAAAAABQIbNABAAAAAABQIP8HNkEoXxoJpUMAAAAASUVORK5CYII="
+			"dAAx0zVWAAAAF0lEQVQAAAAAABQIbNABAAAAAABQIP8HNkEoXxoJpUMAAAAASUVORK5CYIJoRGl6"
+			"cGFpQkpJUGFBVXJpQnRsZTRwcEx2RFA1ZkhsbHMzZXVVbTMzay93UHFkbEZXRGhlY25HK2JTRzlm"
+			"a2VDeU9lTk9RSnF6N21HOUI5UjVISWJldWIxS2VuLzg4M3lNRHlqS25IQlJQclUxb3VWeWJ0ekVo"
+			"cjNNNjQvdUw4YzBLeVlYNkthWEYremkyMitDdHpvai8yY3JoN3JLRDF4dUY0U1Zqa05POXpCcDJE"
+			"ZXcrNzV1WWVZRGJnMGZZblZhMHp5UXFQbSt0elhzOGxxTnZnS3c3T1p5MkdQajM0dXFheGtaSWpC"
+			"ampmUDFYTWt3bzNPV0tBMDcwVGhUaEJZQWxIYnByTVRDamlyY3ZFSXplTnA4WGxZNFNRQThxTGpp"
+			"MjlabVo3em5uQU5RL1BjL3FkcnM4OW10ZlVwdHk0QzArNk9BZFk5NzNtNlhYUnhQWEt0RVB4YTRk"
+			"Zm5IZUhReEFFd1dYdEdYTnUvSG5oOXcxV0VEZks0ZHJtY0l6M3djUXBMaGVtWDZscGZoUXJ6ZDgz"
+			"LzRxSi9RWDNvVGQ2OXJsZzVIclZkMTkyOHliVmxkY2ZtL3Q4K05pcWFzUWUzMWkwUXI2Y1NIR0s2"
+			"T3FTV0VXRU5BM0tjL1djbUJFT043Ykh0WnpQaWYzVXQ4dURrMW5OaitBWkorNFlqZ3lQYmR6RlhQ"
+			"Wlc0TEwyakFrWWZiYXhuckhTM08xVEwrazdYZXJpYzlYRjdaejkyRmY3Tjl3MDhvM0xhM2k2dnV6"
+			"MGtpc21EaGZkQjEzdDFPV2NXZi9RWFFGaFhsMmUzcWdSVlQvdFZSMFh1TnJIV3AybXJHVmlhV1dx"
+			"cFVSVnN4NnlOcmhsKzNDaEEycnQxUmw2RGswUFNoejhscHo0YTVhN2xyS0dxWU9ET1pOTzErdStN"
+			"Q0MyZFJYeERhYVNoaVlKUXp5V2UzaUFpdE92Ynh1Ym5IVjJySWp2cFpJMXBnYTEvcVdLdXZqQTVk"
+			"NG1TaFJGcG9HQnBoS0ZSRGZzdmZEdmwvbGlkcStYK3JTcVNQODVIanAwUlUxelcwdHRSWXF5cWZm"
+			"U2dPaW10TGx4Mnp6Vmh4emp2Vk80OGRzODFRYisxZGdyQ0U3TWNWODNYV1VxdmRldUZHN3pLUVc4"
+			"T1pFNkZZRVVzZUpuZjQ2MVZWZldzWFp6ZDdIVVZ0VndHTDN4VGphSDUwemV4QnBlbjZpMnk1L0x1"
+			"QmMvQU9CYlFDSUkvdlY0WHdIR1Nubi9QcTZRcldycTFzM05TTHB2aWZLcno0OE8rNVJXU1Rkdzl1"
+			"eHNwaXBzeW81ZEZQZnVZMG9aUmN2Q3ljM0pRRklxOVlVSkVkRXB4VWpYc1d0bmN6V3BQNw=="
 		)
 	)
 	(image
@@ -13269,180 +13539,29 @@
 			"AAAAAJBNyEcBAAAAIJuQjwIAAABANiEfBQAAAIBsQj4KAAAAANmEfBQAAAAAsgn5KAAAAABkE/JR"
 			"AAAAAMgm5KMAAAAAkE3IRwEAAAAgm5CPAgAAAEA2fePu3bvZjgEAAAAAHl4YHwUAAACAbEI+CgAA"
 			"AADZhHwUAAAAALIJ+SgAAAAAZBPyUQAAAADIJuSjAAAAAJBNyEcBAAAAIJuQjwIAAABANv0/IBlO"
-			"J3gmD7kAAAAASUVORK5CYII="
+			"J3gmD7kAAAAASUVORK5CYIIALwA3ADkAaQBjADEAQQArAFYAcABDAFMAZQBXAEwAagBvAFEAVgBm"
+			"AC8ATgBWAEoAYgAvAHEAbwBsAGYAVAAvAC8AOQBmAGwAWAA5ADgAaAA5AHUAKwBjAHoAWQA5AGwA"
+			"OABSAEQANABBAGQAdgBuAGYAKwB5AGkAMgAvAGoATABWAHkAMgAzAFEAbgBrAHkAWQB0AHgAVQA2"
+			"ACsALwBLAE8AcgArAGIAQgBmAEgAeABaADMASQBuAEQAVQBSAE8ARwBOADQANABIAGkAMAAxAFoA"
+			"TwAxAFcAcgB5AGkAMAA0AG8AagAxAHMAeABXACsAMgAvAGsANQBlAHkAOABKAFoAZgBoAEgAbwBm"
+			"AFQATgBBAFIANgBpAGEAawA5AHUAUwA1AEkAMgBVAHEASAB4ADgALwAvAG8ASgBUADkAMQA3AEYA"
+			"LwBTAE4AbgBYAGwASgBxAFgAdgBQAEcASwBOAEEARQA4AFIAMgBFAGsAdABzAFkAQgAzAEgAZwB2"
+			"AEEAdwBMAEwAZQB6AE0AOAB2AFAAbgBBADcAdgBwAHUAUABZAGYAZgArAFIAMwAyAFgAbgB6AG8A"
+			"TAB5ADgAZABtAHAARgBIAGcAOQB5AGMAbQBvAEgAbwBLADkAWgAwADUAbABJAFUATgB1AG8AdgBJ"
+			"AHgAMwBGAFEAcQBxAEsAbwBMACsAYwA4ADEANQB2AG4AUABtAGQANAA4AEcASABZAGkASQBEAFQA"
+			"cQB6ADcANAA4AGQAQgA4ADgALwBlAHYANQBnAEYAZQAvADgAMgBaAGYAMQA3AFoAVQBUAHQAMgB1"
+			"AEcAOQB3ADMARABYAFcARQB2AGcAaQA4AGUAMgBmAFgASABuAHkAZQB2AFIAOABiADkAdQA2AGoA"
+			"NgBmADEATwBYAFgATQBpAGkAQQBNAFIAcwBIAGMAegBmAFAAdwAyAHQAeQAvACsAbwB6AEsAdABY"
+			"AFgAOQB1ADYASwB0ACsAOQArAEsAZwB1AFEANgA5ACsARgBoAEkAcgBQAGQAaQBoAFQAMAAyAEgA"
+			"TwBpAGYAKwB5AGsAUAA5AGYAUgBGAFAAcgB4AHoAWgA5AFoAdgB2AGcAZgBOAFAAbwBnAE8AbgBG"
+			"AGUAOQBhAHUAaQBPAFMAMAB6AHcAeQAxAEMASABWADAAWQArAGoAUgBCADEAZAByAFYAcABjAGkA"
+			"NgBDAGIAdQBqAG8AcAB4AFQAdwBPAHIAKwB5AEoAcQBCAEIAQwBYAFkASQBKAE8AawBMAGQAaABh"
+			"AGIAbwA1AFQAMQBlAGoAWABwAHgAKwBzAGoARAAyAGoAbABQAEMAcQA0AGUAQwBVAGkAbgA5AFoA"
+			"awAyAGIANABUAEEAcABsAA=="
 		)
-	)
-	(text "ESP32 WROOM 32E"
-		(exclude_from_sim no)
-		(at 27.94 147.32 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "173470a8-b12d-4dd2-9b5e-0019bff2fad3")
-	)
-	(text "hàng rào nạp code cho esp32 thông qua mạch nạp UART"
-		(exclude_from_sim no)
-		(at 149.86 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "21865d6a-b1f8-42e5-89c0-6ac33baf3476")
-	)
-	(text "https://randomnerdtutorials.com/esp32-pinout-reference-gpios/\nlựa chọn chân nhanh thì vào web này để tìm. \nnhưng khi các bạn vẽ con mới thì sẽ \nkhông có được tổng hợp sẵn như thế này mà phải đọc datashet \n\nđặt điểm của ESP32-wroom-32-e\n- là có 4 chân chỉ INPUT \n- có các chân strapping PWM at boot: \n	khi mới cấp điện những chân này sẽ bị bật tắt liên tục, không thích hợp chọn làm chân relay\n	vì nếu bạn dùng relay này bật tắt các động cơ hoặc các tải lớn, việc bật tắt liên tục gây hồ quang \n	=> hỏng relay hoặc tệ hơn hỏng thiết bị \n- hỗ trợ 2 kênh ADC nhưng bạn chỉ nên dùng những chân ADC1, vì nếu dùng ADC2 sẽ không dùng được Wifi"
-		(exclude_from_sim no)
-		(at -111.76 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "246228b1-dd74-4a8f-bf64-1f01bfef9ba6")
-	)
-	(text "xem chân của esp trong datasheet"
-		(exclude_from_sim no)
-		(at -64.77 317.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "29f2ed6b-945c-467c-9a6b-0034d727e3b8")
-	)
-	(text "RST - BOOT Button"
-		(exclude_from_sim no)
-		(at 139.065 151.13 0)
-		(effects
-			(font
-				(size 5 5)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "34e35978-8bb3-4d80-943a-cccf113a9608")
-	)
-	(text "NHƯNG VIỆC CHỌN CHÂN KHÔNG ĐÚNG CÓ THỂ LÀM ESP32 KHÔNG THỂ CHẠY ĐƯỢC CODE\nhoặc các ngoại vi (I2C, UART, SPI) không thể chạy được "
-		(exclude_from_sim no)
-		(at 53.34 341.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "376dff6e-7310-4441-87d8-9f04c7f1ea8f")
-	)
-	(text "đối với trở kéo I2C \nnên để ở SCH vi điều khiển"
-		(exclude_from_sim no)
-		(at 228.6 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e2544a1-8993-4e05-911f-adba1b3b69b1")
-	)
-	(text "đây là các chân strapping\nesp32 dùng các chân này để cấu hình boot \nnếu bạn dùng ko đúng ESP32 có thể không nạp được code,\nhoặc không thể chạy code \n\nbạn nên hiểu chân đó được cấu hình mặc định kéo lên(pull up) hay kéo xuống (pull down)\ntừ đó kết nối chân đó với ngoại vi phù hợp, vừa tận dụng chân vừa không bị lỗi \n\nví dụ: \nchân MTDI(GPIO12) mặc định kéo xuống, bạn không được kết nối với nút nhấn hoặc dùng làm I2C sẽ bị trở kéo lên từ đó esp không boot được \nbạn có thể dùng nó bật tắt MOSFET điều khiển RELAY, tận dụng được trở kéo xuống trong mạch RELAY đảm bảo logic\n\nchân GPIO15 được kéo lên bạn có thể dùng để đọc input kéo lên, hoặc đọc nút nhấn "
-		(exclude_from_sim no)
-		(at 106.68 279.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "4b514d77-86d9-4def-813f-53326e82a595")
-	)
-	(text "đây là bus alias definations"
-		(exclude_from_sim no)
-		(at 226.06 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6b9e1380-ff0c-413b-af30-789547df13ca")
-	)
-	(text "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf\ndatasheet của esp32"
-		(exclude_from_sim no)
-		(at -21.59 336.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "abbceee3-17f9-4c1d-b96c-e3bc2136cdc0")
-	)
-	(text "ESP32 hỗ trợ IO matrix tức là cho phép các ngoại vi được chọn chân tùy thích \nđiều này khá hay cho hardware vì có thể đổi chân để việc đi dây dễ dàng hơn \n"
-		(exclude_from_sim no)
-		(at 53.34 335.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "c9e0d75c-b0df-4f4e-b712-fe8e67f56cfe")
-	)
-	(text "I2C\nresistor"
-		(exclude_from_sim no)
-		(at 227.33 72.39 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9e79eac-750d-4112-8e2b-21d4ce18a059")
-	)
-	(text "đây là cách các bạn chọn chân cho các ngoại vi giao tiếp(I2C, UART, SPI)\ncác bạn seach tên chuẩn giao tiếp sẽ có hướng dẫn  \n\nví dụ: với I2C\nMặc dù Datasheet bảo bạn có thể chọn bất kỳ chân nào của ESP32 cho I2C\nnhưng bạn cũng cần né các cân strapping như đã nói\nvà các chân chỉ INPUT của ESP32"
-		(exclude_from_sim no)
-		(at 255.27 307.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8bd5e46-f40c-473f-8754-003e0af210aa")
-	)
-	(text "ESP32 tiêu tụ khoảng 240-260mA khi chạy tất cả các ngoại vi, Wifi và bluetooth\ntheo \n- https://deepbluembedded.com/esp32-sleep-modes-power-consumption/\n- https://lastminuteengineers.com/esp32-sleep-modes-power-consumption/#:~:text=ESP32%20Active%20Mode,-Normal%20mode%20is&text=Since%20everything%20is%20always%20active,and%20Bluetooth%20are%20used%20simultaneously."
-		(exclude_from_sim no)
-		(at 29.21 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f4367986-54c0-4f76-8cbe-b91ffef4ca4e")
 	)
 	(label "ESP_RST"
 		(at 44.45 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13453,7 +13572,6 @@
 	)
 	(label "ESP_SPI.MISO"
 		(at 99.06 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13464,7 +13582,6 @@
 	)
 	(label "ESP_IN2"
 		(at 39.37 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13475,7 +13592,6 @@
 	)
 	(label "ESP_SPI.SCK"
 		(at 99.06 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13486,7 +13602,6 @@
 	)
 	(label "ESP_BOOT"
 		(at 163.83 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13497,7 +13612,6 @@
 	)
 	(label "ESP.SCL"
 		(at 99.06 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13508,7 +13622,6 @@
 	)
 	(label "ESP_RX"
 		(at 163.83 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13519,7 +13632,6 @@
 	)
 	(label "ESP_TX"
 		(at 82.55 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13530,7 +13642,6 @@
 	)
 	(label "ESP_OUT2"
 		(at 224.79 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13541,7 +13652,6 @@
 	)
 	(label "ESP.SDA"
 		(at 236.22 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13552,7 +13662,6 @@
 	)
 	(label "ESP_RST"
 		(at 193.675 118.745 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13563,7 +13672,6 @@
 	)
 	(label "ESP_BOOT"
 		(at 167.64 118.745 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13574,7 +13682,6 @@
 	)
 	(label "ESP_SPI.SCK"
 		(at 223.52 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13585,7 +13692,6 @@
 	)
 	(label "ESP.SCL"
 		(at 236.22 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13596,7 +13702,6 @@
 	)
 	(label "ESP.SDA"
 		(at 99.06 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13607,7 +13712,6 @@
 	)
 	(label "ESP_RST"
 		(at 163.83 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13618,7 +13722,6 @@
 	)
 	(label "ESP_RX"
 		(at 82.55 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13629,7 +13732,6 @@
 	)
 	(label "ESP_OUT2"
 		(at 99.06 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13640,7 +13742,6 @@
 	)
 	(label "ESP_SPI.MOSI"
 		(at 99.06 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13651,7 +13752,6 @@
 	)
 	(label "ESP.SCL"
 		(at 223.52 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13662,7 +13762,6 @@
 	)
 	(label "ESP_SPI.MISO"
 		(at 223.52 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13673,7 +13772,6 @@
 	)
 	(label "ESP_SPI.MOSI"
 		(at 223.52 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13684,7 +13782,6 @@
 	)
 	(label "ESP_IN1"
 		(at 39.37 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13695,7 +13792,6 @@
 	)
 	(label "ESP_IN1"
 		(at 226.06 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13706,7 +13802,6 @@
 	)
 	(label "ESP.SDA"
 		(at 223.52 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13717,7 +13812,6 @@
 	)
 	(label "ESP_TX"
 		(at 163.83 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13728,7 +13822,6 @@
 	)
 	(label "ESP_BOOT"
 		(at 82.55 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13739,7 +13832,6 @@
 	)
 	(label "ESP_OUT1"
 		(at 224.79 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13750,7 +13842,6 @@
 	)
 	(label "ESP_OUT1"
 		(at 99.06 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13761,7 +13852,6 @@
 	)
 	(label "ESP_IN2"
 		(at 226.06 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13773,7 +13863,6 @@
 	(hierarchical_label "ESP_IN[1..2]"
 		(shape input)
 		(at 240.03 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13785,7 +13874,6 @@
 	(hierarchical_label "ESP_SDCARD_DET"
 		(shape input)
 		(at 80.01 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13797,7 +13885,6 @@
 	(hierarchical_label "ESP_OUT[1..2]"
 		(shape output)
 		(at 240.03 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13809,7 +13896,6 @@
 	(hierarchical_label "ESP_CO2_RX"
 		(shape input)
 		(at 100.33 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13821,7 +13907,6 @@
 	(hierarchical_label "ESP_SDCARD_CS"
 		(shape output)
 		(at 80.01 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13833,7 +13918,6 @@
 	(hierarchical_label "ESP_CO2_TX"
 		(shape output)
 		(at 100.33 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13845,7 +13929,6 @@
 	(hierarchical_label "ESP{I2C}"
 		(shape output)
 		(at 242.57 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13857,7 +13940,6 @@
 	(hierarchical_label "ADC"
 		(shape input)
 		(at 111.76 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13869,7 +13951,6 @@
 	(hierarchical_label "ESP_SPI{SPI}"
 		(shape output)
 		(at 242.57 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13881,7 +13962,6 @@
 	(hierarchical_label "Buzzer"
 		(shape output)
 		(at 105.41 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
