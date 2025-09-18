@@ -855,6 +855,15 @@
 					(hide yes)
 				)
 			)
+			(property "ki_fp_filters" "D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
@@ -3861,6 +3870,12 @@
 		(uuid "4147f18b-77ee-42a4-a378-b8bf307c558c")
 	)
 	(junction
+		(at 190.5 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "423a70dc-dd9e-4b6c-8869-591d2813651f")
+	)
+	(junction
 		(at 130.81 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3909,10 +3924,10 @@
 		(uuid "83faa4da-b957-46ee-a7e6-4b08ddcf51a4")
 	)
 	(junction
-		(at 191.135 88.9)
+		(at 214.63 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8662116b-ecc9-4d40-8af5-5e2247f0dcd1")
+		(uuid "a011c54c-7a54-411f-ae3f-caa299a9edf1")
 	)
 	(junction
 		(at 116.205 116.84)
@@ -3945,6 +3960,12 @@
 		(uuid "b545ea14-62ee-4b05-a404-08782b56d7df")
 	)
 	(junction
+		(at 190.5 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8022ba2-688e-4cdc-a1a6-08bb3049af16")
+	)
+	(junction
 		(at 55.88 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3975,12 +3996,6 @@
 		(uuid "ea2db263-6cec-48bf-b7ba-1d16ab4276f5")
 	)
 	(junction
-		(at 191.135 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1ec1063-6b90-4c51-bbb8-fb4cf63261c2")
-	)
-	(junction
 		(at 47.625 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3997,6 +4012,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9cf6622-1493-45ee-a8a9-974285c97382")
+	)
+	(bus_entry
+		(at 240.03 29.21)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9341669b-98b0-4b59-9c63-f7b31042b6ab")
+	)
+	(bus_entry
+		(at 240.03 26.67)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66c5e12-39c2-40ab-8cbd-a99edb7591bb")
 	)
 	(wire
 		(pts
@@ -4037,6 +4070,16 @@
 			(type default)
 		)
 		(uuid "0f6d767f-e510-4262-be0d-7af9c3e71a96")
+	)
+	(wire
+		(pts
+			(xy 214.63 26.67) (xy 240.03 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c50ed5-9bca-4786-a455-fcf06419f8d3")
 	)
 	(wire
 		(pts
@@ -4100,6 +4143,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 90.17) (xy 166.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18105e4c-17aa-4e83-a9b4-36129e27592a")
+	)
+	(wire
+		(pts
 			(xy 139.7 39.37) (xy 139.7 40.64)
 		)
 		(stroke
@@ -4157,6 +4210,16 @@
 			(type default)
 		)
 		(uuid "2d533736-ea69-492e-afa0-0a4ae89b5d80")
+	)
+	(wire
+		(pts
+			(xy 190.5 86.36) (xy 191.135 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308e18e3-2580-4b63-b7e6-62c27ac85f34")
 	)
 	(wire
 		(pts
@@ -4268,6 +4331,16 @@
 		)
 		(uuid "43392e87-45ce-4f40-9c2c-58e273e42af1")
 	)
+	(bus
+		(pts
+			(xy 242.57 31.75) (xy 242.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4359b334-4d00-4600-a5f0-0388439ccf58")
+	)
 	(wire
 		(pts
 			(xy 99.06 48.26) (xy 106.68 48.26)
@@ -4297,6 +4370,16 @@
 			(type default)
 		)
 		(uuid "466e24a3-e30a-4c2d-83fa-8af39183d272")
+	)
+	(wire
+		(pts
+			(xy 190.5 101.6) (xy 191.135 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ec7fdd-e43e-4b9f-9d44-8fe07a41ae50")
 	)
 	(wire
 		(pts
@@ -4340,6 +4423,17 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 90.17) (xy 140.335 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4eea7763-134b-42bf-9f20-352653ef0ad9")
+	)
+	(wire
+		(pts
 			(xy 170.815 110.49) (xy 170.815 111.76)
 		)
 		(stroke
@@ -4368,6 +4462,16 @@
 		)
 		(uuid "560251e1-bfe3-4931-8c0a-f5a20b0490e3")
 	)
+	(bus
+		(pts
+			(xy 242.57 29.21) (xy 242.57 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aab6a4c-0b80-4a8e-abd9-d8e28537cec6")
+	)
 	(wire
 		(pts
 			(xy 162.56 43.18) (xy 162.56 52.07)
@@ -4377,6 +4481,17 @@
 			(type default)
 		)
 		(uuid "5b1bfcc7-c5af-4444-b797-83e73ed44652")
+	)
+	(wire
+		(pts
+			(xy 140.335 90.17) (xy 140.335 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5bd8c59b-624f-4924-b46b-f8af4f21bd18")
 	)
 	(wire
 		(pts
@@ -4480,7 +4595,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 57.15) (xy 74.93 57.15)
+			(xy 78.74 57.15) (xy 74.93 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4527,17 +4642,6 @@
 			(type default)
 		)
 		(uuid "7eb81a7a-08bc-407f-adae-c34aa4da7f37")
-	)
-	(wire
-		(pts
-			(xy 140.335 88.9) (xy 191.135 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "80136d5b-fe82-4b22-8e20-9eec44dc6582")
 	)
 	(wire
 		(pts
@@ -4751,7 +4855,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 101.6) (xy 191.135 101.6)
+			(xy 187.325 101.6) (xy 190.5 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4778,6 +4882,26 @@
 			(type default)
 		)
 		(uuid "ac792b79-97f1-4a42-9861-70f85bb28aaf")
+	)
+	(wire
+		(pts
+			(xy 173.99 90.17) (xy 190.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec0ef39-f52b-467a-9ace-21a0b38a10d5")
+	)
+	(wire
+		(pts
+			(xy 215.9 29.21) (xy 240.03 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af409980-100d-498b-8b07-231fd292dbf3")
 	)
 	(wire
 		(pts
@@ -4901,6 +5025,26 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 34.29) (xy 215.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbeee3fc-807c-49b0-b878-235d7dc58dcd")
+	)
+	(wire
+		(pts
+			(xy 215.9 34.29) (xy 215.9 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccdc056e-efd4-4696-ab87-55671e75ce61")
+	)
+	(wire
+		(pts
 			(xy 88.9 101.6) (xy 108.585 101.6)
 		)
 		(stroke
@@ -4921,13 +5065,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 88.9) (xy 191.135 101.6)
+			(xy 190.5 86.36) (xy 190.5 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d1df3e68-66a8-4e5f-8e52-dc232952441c")
+	)
+	(bus
+		(pts
+			(xy 242.57 34.29) (xy 243.84 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4dc1884-10a6-411b-9a0b-a2cf0dbfcf45")
 	)
 	(wire
 		(pts
@@ -4948,6 +5102,16 @@
 			(type default)
 		)
 		(uuid "e074d129-6e7f-4a96-8063-577ee94befca")
+	)
+	(wire
+		(pts
+			(xy 190.5 90.17) (xy 190.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e180f2a8-8d9a-4077-ab22-a3f7a32fb9c6")
 	)
 	(wire
 		(pts
@@ -5041,17 +5205,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.335 88.9) (xy 140.335 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "f4596a46-1f40-4a45-8b54-66a3fa45f502")
-	)
-	(wire
-		(pts
 			(xy 88.9 101.6) (xy 88.9 102.87)
 		)
 		(stroke
@@ -5069,16 +5222,6 @@
 			(type default)
 		)
 		(uuid "f9891488-02d8-445b-bb3e-66046be5b4e4")
-	)
-	(wire
-		(pts
-			(xy 191.135 86.36) (xy 191.135 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb3e41bb-2f00-4aa6-acb2-74667a11af61")
 	)
 	(wire
 		(pts
@@ -7689,6 +7832,16 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
+	(label "ESP.DP"
+		(at 214.63 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07d2ebab-e287-4fe5-9003-cefa48353fd6")
+	)
 	(label "B"
 		(at 71.12 101.6 0)
 		(effects
@@ -7708,6 +7861,16 @@
 			(justify left bottom)
 		)
 		(uuid "5263c124-d314-45d8-9658-dd10c3eb3071")
+	)
+	(label "ESP.DN"
+		(at 214.63 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5299642b-de0a-4014-8e8c-f8ab1f6fa1ae")
 	)
 	(label "VOUT"
 		(at 170.815 101.6 180)
@@ -7761,6 +7924,79 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "ESP{USB}"
+		(shape output)
+		(at 243.84 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8ecf970-b94e-4490-8d48-681c7d36f027")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 234.315 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16c9c9a7-3924-4a86-be70-33eaf45717b5")
+		(property "Netclass" "USB"
+			(at 235.0135 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -348.615 -99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 238.76 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8d2b0c9-af5d-450c-95d5-423c341fdd58")
+		(property "Netclass" "USB"
+			(at 239.4585 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -344.17 -101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)
@@ -7892,6 +8128,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 66.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 66.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7990963-1615-423a-9d4f-9090e3cebc02")
 		)
@@ -7974,6 +8228,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 34.29 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 34.29 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a74ac42-3d0a-4ef9-938b-96de03604dd4")
 		)
@@ -8046,6 +8318,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/led-do-0603-dan-smd-trong-suot"
 			(at 139.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 139.7 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 139.7 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8190,6 +8480,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-nhom-smd-220uf-16v-6-3x7-7mm"
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 106.68 44.45 0)
 			(effects
 				(font
@@ -8346,16 +8654,16 @@
 	)
 	(symbol
 		(lib_id "TrainSymbol:MountingHole_Pad")
-		(at 79.375 57.15 270)
+		(at 81.28 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "290b6ade-3490-4182-b848-541933f7993a")
 		(property "Reference" "H1"
-			(at 83.185 57.785 90)
+			(at 85.09 57.785 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8364,7 +8672,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 83.185 59.055 90)
+			(at 85.09 59.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8374,7 +8682,7 @@
 			)
 		)
 		(property "Footprint" "trainFootprint:MountingHole_3.2mm_M3_Pad_Via"
-			(at 79.375 57.15 0)
+			(at 81.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8383,7 +8691,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 79.375 57.15 0)
+			(at 81.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,7 +8700,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 79.375 57.15 0)
+			(at 81.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 81.28 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 81.28 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8541,6 +8867,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7fc4bd6f-a4af-4505-ae9a-0456029c9bd7")
 		)
@@ -8612,6 +8956,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-1uf-25v"
 			(at 162.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 162.56 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 162.56 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8696,6 +9058,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 180.975 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 180.975 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9021fd11-82c9-4f13-908a-b00049524487")
 		)
@@ -8706,6 +9086,102 @@
 			(project "train1"
 				(path "/8ef429ea-1d8f-44d5-b6bc-d1c8102fe584/4dcb5ec4-8bea-4ca7-980c-d5c908877619"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrainSymbol:R")
+		(at 154.94 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45782459-d7c9-4948-8f2e-ac7bce59c433")
+		(property "Reference" "R37"
+			(at 154.305 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 160.782 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "trainFootprint:C_0603"
+			(at 154.94 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Thegioiic_Buylink" "https://www.thegioiic.com/dien-tro-100-kohm-0603-1-"
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14a77947-0105-40d1-8937-a9dde0b8eab6")
+		)
+		(pin "2"
+			(uuid "131091b3-dc51-4b9c-b134-80a66d048610")
+		)
+		(instances
+			(project "train1"
+				(path "/8ef429ea-1d8f-44d5-b6bc-d1c8102fe584/4dcb5ec4-8bea-4ca7-980c-d5c908877619"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -8766,6 +9242,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-10uf-16v"
+			(at 191.135 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 191.135 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 191.135 105.41 0)
 			(effects
 				(font
@@ -8910,6 +9404,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-keo-vang-x2-100nf-0-1uf-104k-275vac"
+			(at 74.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 74.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 74.93 44.45 0)
 			(effects
 				(font
@@ -9125,6 +9637,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 78.74 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 78.74 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16bc270e-e622-4049-b50d-ac33fad1e956")
 		)
@@ -9207,6 +9737,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 214.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 214.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e50601b-af34-4ea9-9f1c-9d0efcaac3ed")
 		)
@@ -9276,6 +9824,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/hlk-10m05-chuyen-doi-ac-dc-220-5v-10w-hi-link"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 88.9 44.45 0)
 			(effects
 				(font
@@ -9369,6 +9935,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 74.93 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 74.93 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b852bbe-8fe6-4088-82ad-d089d594e080")
 		)
@@ -9439,6 +10023,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-10uf-16v"
+			(at 119.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 119.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 119.38 44.45 0)
 			(effects
 				(font
@@ -9547,7 +10149,7 @@
 			)
 		)
 		(property "Value" "1uF/0603/50V"
-			(at 114.5049 101.794 90)
+			(at 119.888 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,6 +10186,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-1uf-25v"
 			(at 116.205 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 116.205 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 116.205 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9662,6 +10282,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-100nf-0-1uf-50v"
 			(at 204.47 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 204.47 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 204.47 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,6 +10451,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 170.18 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 170.18 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8edec52-4f6d-4353-bfb5-096a76678eec")
 		)
@@ -9948,6 +10604,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/dc5521-dau-noi-nguon-dc-cai-5521-han-pcb-kim-2-1mm"
+			(at 52.07 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 52.07 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 52.07 104.14 0)
 			(effects
 				(font
@@ -10166,6 +10840,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c375e4ac-d1e0-4922-a9a8-8f8f07232d7c")
 		)
@@ -10290,6 +10982,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 47.625 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 47.625 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71a3d6c7-8c96-46a2-a061-49f4373f7eea")
 		)
@@ -10362,6 +11072,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/ss54-sma-diode-shotky-5a-40v"
 			(at 170.815 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 170.815 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 170.815 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10447,6 +11175,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b5bc240-1853-42aa-b720-e79ebddfcdd0")
 		)
@@ -10524,6 +11270,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 142.875 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 142.875 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc736711-b521-496b-8594-1a046ec04085")
 		)
@@ -10576,7 +11340,7 @@
 			)
 		)
 		(property "Value" "10uF/0603/6.3V"
-			(at 102.235 113.03 0)
+			(at 93.472 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10612,6 +11376,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-10uf-16v"
+			(at 108.585 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 108.585 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 108.585 107.95 0)
 			(effects
 				(font
@@ -10829,6 +11611,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 184.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 184.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8b17abe-7df7-4e61-9adc-761a45d635de")
 		)
@@ -10910,6 +11710,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 88.9 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 88.9 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6649f8e8-91a9-43bc-aa3a-6e2f7fc477b5")
 		)
@@ -10981,6 +11799,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-1uf-25v"
 			(at 198.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 198.12 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 198.12 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,6 +11903,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 214.63 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 214.63 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d1ee0e8-ecd6-4a21-b241-713e4aa89db0")
 		)
@@ -11137,6 +11991,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-100nf-0-1uf-50v"
+			(at 130.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 130.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 130.81 44.45 0)
 			(effects
 				(font
@@ -11221,6 +12093,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 66.04 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 66.04 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "431e3136-b89e-4b73-899b-4e7324a5c56e")
 		)
@@ -11255,7 +12145,7 @@
 			)
 		)
 		(property "Value" "100K/0603/5%"
-			(at 80.645 120.015 0)
+			(at 76.2 123.952 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11299,6 +12189,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 78.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 78.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7bed310-e32f-4317-89d9-993e5ea3452c")
 		)
@@ -11309,6 +12217,102 @@
 			(project "train1"
 				(path "/8ef429ea-1d8f-44d5-b6bc-d1c8102fe584/4dcb5ec4-8bea-4ca7-980c-d5c908877619"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrainSymbol:R")
+		(at 170.18 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fba80543-b5fc-44f6-bf23-82be0fc5e8af")
+		(property "Reference" "R38"
+			(at 169.545 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20K"
+			(at 176.022 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "trainFootprint:C_0603"
+			(at 170.18 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Thegioiic_Buylink" "https://www.thegioiic.com/dien-tro-100-kohm-0603-1-"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4c6e7af-b6f4-491f-bc98-de7b8bc05112")
+		)
+		(pin "2"
+			(uuid "30839e39-f66e-4f0a-8afb-fa3c8e85ce30")
+		)
+		(instances
+			(project "train1"
+				(path "/8ef429ea-1d8f-44d5-b6bc-d1c8102fe584/4dcb5ec4-8bea-4ca7-980c-d5c908877619"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -11370,6 +12374,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-100nf-0-1uf-50v"
+			(at 88.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 88.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 88.9 118.11 0)
 			(effects
 				(font

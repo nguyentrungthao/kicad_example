@@ -1,0 +1,262 @@
+(footprint "ACDC_PowerSuppy_HLK_P01"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ACDC-Converter, 3W, HiLink, HLK-PMxx, THT, http://www.hlktech.net/product_detail.php?ProId=54")
+	(tags "ACDC-Converter 3W THT HiLink board mount module")
+	(property "Reference" "REF**"
+		(at -0.03 -6.47 0)
+		(layer "F.SilkS")
+		(uuid "8267eb6d-32f7-428b-a86e-fa760d9ff9fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HLK-PM01"
+		(at 15.79 13.85 0)
+		(layer "F.Fab")
+		(uuid "ac6b0089-bc70-4194-b37b-bb4af23cfda5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "IVS_FOOTPRINTS:ACDC_PowerSuppy_HLK_P01"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad4a5833-929b-4d4c-9986-a84d7bac3d43")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.hlktech.net/product_detail.php?ProId=54"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84ec711b-d7ad-4f37-ad2b-738e2ed9ca9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71c0d819-ac7a-4b6c-8c18-32f65822f105")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 29 7)
+		(end 31 7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4fbe5e50-1a15-431c-934a-7f7879f2a58f")
+	)
+	(fp_line
+		(start 30 6)
+		(end 30 8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3c55062a-0477-40c4-b302-3412953b4720")
+	)
+	(fp_rect
+		(start -2.39 -7.6)
+		(end 31.78 12.6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4dfb98ef-4420-4dd2-b1ec-9584d94b3cdf")
+	)
+	(fp_line
+		(start -2.55 -7.75)
+		(end -2.55 12.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a15c946-217f-4ee0-b0b6-5e99ca1bf857")
+	)
+	(fp_line
+		(start -2.55 12.75)
+		(end 31.95 12.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43729386-624d-421e-8094-ca9b7afb38f7")
+	)
+	(fp_line
+		(start 31.95 -7.75)
+		(end -2.55 -7.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "89094b7b-abe6-44e3-ba82-6d2372b8d100")
+	)
+	(fp_line
+		(start 31.95 12.75)
+		(end 31.95 -7.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0dc16ae-c2e6-4ac4-9367-b46ae1917a67")
+	)
+	(fp_line
+		(start -2.3 -7.5)
+		(end 31.7 -7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "501ae58c-60c0-4fdc-a649-53b45ff1eedd")
+	)
+	(fp_line
+		(start -2.3 -1)
+		(end -2.3 -7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c8b1911-348d-437b-bbd9-0e810d64a381")
+	)
+	(fp_line
+		(start -2.3 12.5)
+		(end -2.3 0.99)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6425cce4-3ee5-489e-9261-a4c154babd35")
+	)
+	(fp_line
+		(start -2.3 12.5)
+		(end 31.7 12.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70aada2f-9019-4375-ab42-2319cde9eed9")
+	)
+	(fp_line
+		(start -2.29 -1)
+		(end -1.29 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eea98352-8713-432f-a9b3-9dd5451181be")
+	)
+	(fp_line
+		(start -1.29 0)
+		(end -2.29 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "62fa2ba4-e2d0-4211-b89a-faf238562c23")
+	)
+	(fp_line
+		(start 31.7 12.5)
+		(end 31.7 -7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f407d55e-e4fa-44a9-b2b4-19fdb57c2c6e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 14.68 1.17 0)
+		(layer "F.Fab")
+		(uuid "f1c85570-be3d-4e9b-a681-55ce45c38566")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.3 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fc4e5483-89bc-4460-8ca3-87ce7e2343a3")
+	)
+	(pad "2" thru_hole circle
+		(at 0 5)
+		(size 2.3 2.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "81faa519-e23e-4236-b33f-69b6254a3c91")
+	)
+	(pad "3" thru_hole circle
+		(at 29.4 -5.2)
+		(size 2.3 2.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "974c3494-58af-464c-8166-24b8e19f0cff")
+	)
+	(pad "4" thru_hole circle
+		(at 29.4 10.2)
+		(size 2.3 2.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "614e224a-d6fb-4612-bccd-095cdd16e8b5")
+	)
+	(model "${IOTVISION_3D}/Module/Hilink_HLK/User Library-HLK-PM01.STEP"
+		(offset
+			(xyz 14.5 7.5 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

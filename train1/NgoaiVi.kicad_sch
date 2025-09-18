@@ -6123,7 +6123,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "04d55ebf-ffc9-48c8-88c8-63a8475b26f1")
+		(uuid "3a2b98a8-e374-4afe-a8e7-01268ffe1453")
 	)
 	(label "DS3231.SDA"
 		(at 105.41 50.8 0)
@@ -6133,7 +6133,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8c396dd9-2be3-4ae4-84e3-63b239e760e7")
+		(uuid "6e30a556-9d71-4d45-b0d7-8b348d51b6c1")
 	)
 	(label "SD.MOSI"
 		(at 193.04 43.18 0)
@@ -6404,6 +6404,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 153.035 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 153.035 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0692e80-7ecc-4242-a778-7bfdbb83fcea")
 		)
@@ -6476,6 +6494,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/de-pin-cr1220-dan-smd"
 			(at 153.035 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 153.035 56.515 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 153.035 56.515 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,7 +6605,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -6610,6 +6646,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 73.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 73.66 114.3 0)
 			(effects
 				(font
@@ -6765,6 +6819,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 51.435 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 51.435 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97bdc54b-bf59-472d-bbb6-5c31d4389f48")
 		)
@@ -6836,6 +6908,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/si2300ds-mosfet-kenh-n-30v-3-6a-sot-23"
+			(at 55.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 55.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 55.88 54.61 0)
 			(effects
 				(font
@@ -7070,6 +7160,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 59.055 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 59.055 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a839954c-a292-4e09-8637-dd7eccbb4101")
 		)
@@ -7139,6 +7247,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-100nf-0-1uf-50v"
 			(at 121.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 121.92 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 121.92 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,6 +7343,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/dien-tro-100-kohm-0603-1-"
+			(at 46.355 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 46.355 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 46.355 60.325 0)
 			(effects
 				(font
@@ -7371,6 +7515,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 86.36 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 86.36 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c288a855-dd49-4c80-b792-ceed115d357e")
 		)
@@ -7472,6 +7634,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 43.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 43.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39e5d7d1-6e95-4767-ab01-a5919fcef052")
 		)
@@ -7541,6 +7721,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/misd-pp-9p-v1-khay-the-nho-microsd-9-chan-push-push"
+			(at 242.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 242.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 242.57 48.26 0)
 			(effects
 				(font
@@ -7645,6 +7843,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/dien-tro-10-kohm-0603-1-"
 			(at 207.01 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 207.01 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 207.01 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7798,6 +8014,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 46.99 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 46.99 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85233a37-b1cb-445f-b814-531aa95e3f4c")
 		)
@@ -7934,6 +8168,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-10uf-16v"
 			(at 62.23 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 62.23 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 62.23 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8163,6 +8415,24 @@
 		)
 		(property "Digikey_Buylink" "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/DS3231M-TRL/2402421"
 			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 130.81 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 130.81 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,6 +8693,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 153.035 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 153.035 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14ccdb6c-0c08-48e3-8b85-bc33883c07f5")
 		)
@@ -8499,6 +8787,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 197.485 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 197.485 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a388bf8a-1721-426d-86b1-921220569878")
 		)
@@ -8509,6 +8815,162 @@
 			(project "train1"
 				(path "/8ef429ea-1d8f-44d5-b6bc-d1c8102fe584/7ee0aad5-796c-490b-9bdc-cef3c59d56b8"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrainSymbol:RTC_DS3231M")
+		(at 132.08 -17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c85a3718-346a-4164-b7eb-c4927fd4f6e4")
+		(property "Reference" "IC2"
+			(at 134.0994 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RTC_DS3231M"
+			(at 115.57 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "trainFootprint:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 133.35 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS3231.pdf"
+			(at 133.35 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Thegioiic_Buylink" "https://www.thegioiic.com/ds3231sn-ic-rtc-clock-calendar-16-soic"
+			(at 135.89 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ICDAYROI_Buylink" "https://icdayroi.com/ds3231n"
+			(at 132.08 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Buylink" "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/DS3231M-TRL/2402421"
+			(at 133.35 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 132.08 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 132.08 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0a5697e-0bb2-477d-be29-5071671a6865")
+		)
+		(pin "10"
+			(uuid "ca9ada0a-3fe3-4a39-ba8c-2ea679fc8587")
+		)
+		(pin "11"
+			(uuid "8364088e-9e97-4999-835f-09133d05a706")
+		)
+		(pin "12"
+			(uuid "9a1e8bf8-057e-42d4-a81c-95a4e885575e")
+		)
+		(pin "13"
+			(uuid "2bb3228e-d63c-4417-92e2-b8919c55ec8e")
+		)
+		(pin "14"
+			(uuid "a7fe12a4-b7ef-4e89-9121-fc94aa79cd59")
+		)
+		(pin "15"
+			(uuid "9e48823b-82c1-4480-a281-eabc163a8ab9")
+		)
+		(pin "16"
+			(uuid "67404b06-d550-4f2e-8f3c-ccde2008abc1")
+		)
+		(pin "2"
+			(uuid "0ad80036-b245-4c1c-824c-7e5ef3703979")
+		)
+		(pin "3"
+			(uuid "10ce9b62-c9a7-483b-a93b-fce14a977f6b")
+		)
+		(pin "4"
+			(uuid "f4956052-05a2-44b7-92ee-12481b899f90")
+		)
+		(pin "5"
+			(uuid "07f0424c-d83b-4049-a147-ec6b7a74e896")
+		)
+		(pin "6"
+			(uuid "0470c9e4-7b04-45db-9326-ad8a2835c3c8")
+		)
+		(pin "7"
+			(uuid "17f53970-0981-46c0-bd3e-22e96ce209c6")
+		)
+		(pin "8"
+			(uuid "2911da50-678b-4e68-b1a0-b9ba52190fab")
+		)
+		(pin "9"
+			(uuid "c4aada22-5ea3-4e30-b681-fa28ee93cf2d")
+		)
+		(instances
+			(project "train1"
+				(path "/8ef429ea-1d8f-44d5-b6bc-d1c8102fe584/7ee0aad5-796c-490b-9bdc-cef3c59d56b8"
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -8572,6 +9034,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/led-do-0603-dan-smd-trong-suot"
 			(at 43.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 43.18 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 43.18 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8715,6 +9195,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-1uf-25v"
 			(at 121.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 121.92 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 121.92 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8934,6 +9432,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b6d338f-b97e-4c5b-bf75-c616132d64ac")
 		)
@@ -9071,6 +9587,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-10uf-16v"
 			(at 62.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 62.23 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 62.23 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)

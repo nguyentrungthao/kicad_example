@@ -1,0 +1,179 @@
+(footprint "C_0603"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.000001 -1.100001 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2911f23a-ad23-474a-8568-83e223726757")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "100nF"
+		(at 0 0.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1f1c96cb-c984-4270-ab19-cb9fff92893f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "IVS_FOOTPRINTS:C_0603"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42e84e6b-8d76-4a37-8b42-8a8c656502f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d7cdab0-a83e-458e-8d80-149c73758e95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c14bace-de02-4f69-8394-6e30c3cb1c8d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.15 -0.3)
+		(end 0.15 -0.3)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e86d4c3f-8973-442b-abac-b25e6b31bbcb")
+	)
+	(fp_line
+		(start -0.15 0.3)
+		(end 0.15 0.3)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "399879e4-6bcc-430d-ab26-124b5c7c99f8")
+	)
+	(fp_rect
+		(start -1.3 -0.6)
+		(end 1.3 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "792736f0-a417-44d0-a8e3-2940d6cc0cad")
+	)
+	(fp_line
+		(start -0.8 -0.39)
+		(end 0.8 -0.39)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3da06c3b-b429-458b-8d38-80eff58c8772")
+	)
+	(fp_line
+		(start -0.8 0.41)
+		(end -0.8 -0.39)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d33418ed-9d71-4a01-b27b-674914040aad")
+	)
+	(fp_line
+		(start 0.8 -0.39)
+		(end 0.8 0.41)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6b46090-de58-43a6-ba3a-7d43b555eb34")
+	)
+	(fp_line
+		(start 0.8 0.41)
+		(end -0.8 0.41)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8212b695-c1b0-48f8-98d6-938e371842bd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b4cf62f4-878c-411b-bf49-6b2954a8ae1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.775 0)
+		(size 0.85 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "39fe08cc-d350-44b0-a0e3-a9a5ee8bd126")
+	)
+	(pad "2" smd roundrect
+		(at 0.775 0)
+		(size 0.85 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "7c392c29-3662-4055-baef-90ce2b8a9ef9")
+	)
+	(model "${IOTVISION_3D}/Capacitor/Cap_SMD/CAP/csmd-0603_l1-6_w0-8_h0-8.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

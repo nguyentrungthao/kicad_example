@@ -1,0 +1,146 @@
+(footprint "TerminalBlock_Screw_HB9500_6P_P9.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.6 11.5125 0)
+		(layer "F.SilkS")
+		(uuid "bdcfe4df-0d60-45f1-8de5-744e8f81e4b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Screw_Terminal_01x06"
+		(at 5.85 9.8125 0)
+		(layer "F.Fab")
+		(uuid "fbaaa8f6-1e49-4083-ade6-cea9c3cc8784")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "IVS_FOOTPRINTS:TerminalBlock_Screw_HB9500_6P_P9.5mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccf2b3ff-f098-40b3-a407-fbdb9cc2ee34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "262eb20b-f6e9-411f-98b9-84c2f469edda")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b93ad14b-e948-4c3e-89ff-710984de3633")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -29.75 -11.1375)
+		(end 29.65 6.7875)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b080d46c-9934-4ed5-84dd-15a897e91faa")
+	)
+	(fp_rect
+		(start -29.75 -11.15)
+		(end 29.65 6.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "2e4102da-f96d-4778-be22-48d6f20b7ace")
+	)
+	(pad "1" thru_hole oval
+		(at -23.75 -5.1875)
+		(size 4 2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc3738ec-51e5-4980-b07b-72841888dd85")
+	)
+	(pad "2" thru_hole oval
+		(at -14.25 -5.1875)
+		(size 4 2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b0228140-1be1-40dd-91ec-9acf685a8179")
+	)
+	(pad "3" thru_hole oval
+		(at -4.75 -5.1875)
+		(size 4 2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec87c8bf-393d-42d6-8ecc-21845817b2c0")
+	)
+	(pad "4" thru_hole oval
+		(at 4.75 -5.1875)
+		(size 4 2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9164b60f-36b3-423f-ab0e-42140c63b700")
+	)
+	(pad "5" thru_hole oval
+		(at 14.25 -5.1875)
+		(size 4 2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9826b9a-86f9-4e65-a7bf-543a7d05ccbe")
+	)
+	(pad "6" thru_hole oval
+		(at 23.75 -5.1875)
+		(size 4 2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "52e6677c-2ee0-4449-97eb-0e5f6f7a267f")
+	)
+	(model "${IOTVISION_3D}/Connector/TerminalBlock/HB9500/HB9500_01x06_P9.50mm.step"
+		(offset
+			(xyz -23.5 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

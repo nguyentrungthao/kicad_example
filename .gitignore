@@ -1,0 +1,6 @@
+build/
+Document/
+*-backups/
+*-cache
+*-table
+_autosave*

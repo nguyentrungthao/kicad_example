@@ -8582,6 +8582,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 66.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 66.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "4bb45637-9f35-4bc8-8f82-328b8d001607")
 		)
@@ -8800,6 +8818,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 85.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 85.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e0a8e40-b3f6-4abd-8500-74a13a529e4d")
 		)
@@ -8871,6 +8907,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/cong-usb-cai-doi-2-0-type-a-8-chan-cong-90-do-v2"
+			(at 245.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 245.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 245.11 120.65 0)
 			(effects
 				(font
@@ -8972,6 +9026,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/led-do-0603-dan-smd-trong-suot"
 			(at 135.89 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 135.89 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 135.89 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9191,6 +9263,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 27.94 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 27.94 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a8175ad-c17b-4d33-b0bd-9c354a1e4a54")
 		)
@@ -9261,6 +9351,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-10uf-16v"
+			(at 92.71 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 92.71 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 92.71 27.94 0)
 			(effects
 				(font
@@ -9481,6 +9589,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 45.72 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 45.72 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3db967e-e210-40a3-b596-0f55e5d8a20a")
 		)
@@ -9692,6 +9818,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 124.46 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 124.46 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7aefd938-89d9-4614-af6f-4253c718485f")
 		)
@@ -9829,6 +9973,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/dien-tro-220-ohm-0603-1-"
+			(at 99.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 99.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 99.06 128.27 0)
 			(effects
 				(font
@@ -9982,6 +10144,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 39.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 39.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6eedd079-3f56-4985-a8ee-0b69d4ef1481")
 		)
@@ -10059,6 +10239,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/dien-tro-220-ohm-0603-1-"
+			(at 59.69 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 59.69 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 59.69 69.85 0)
 			(effects
 				(font
@@ -10147,6 +10345,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c0e27394-4562-4a5d-9967-3180aedbc59d")
 		)
@@ -10224,6 +10440,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/el357n-g-optoisolator-transistor-output-3750vrms-1-channel-4-sop"
+			(at 110.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 110.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 110.49 138.43 0)
 			(effects
 				(font
@@ -10384,6 +10618,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 91.44 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 91.44 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8b18dec-5df6-4bfb-9b05-5315a0dccbe2")
 		)
@@ -10455,6 +10707,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/dien-tro-1-kohm-0603-1-"
+			(at 64.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 64.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 64.77 120.65 0)
 			(effects
 				(font
@@ -10536,6 +10806,24 @@
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/led-do-0603-dan-smd-trong-suot"
 			(at 33.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 33.02 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 33.02 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,6 +10977,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be6b19de-e6ff-4f3d-8b4c-ee2ea9fb4c50")
 		)
@@ -10760,6 +11066,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/dien-tro-1-kohm-0603-1-"
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 135.89 120.65 0)
 			(effects
 				(font
@@ -10914,6 +11238,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 33.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 33.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63328a4e-8c0e-4db3-9d45-5788f371eecc")
 		)
@@ -10984,6 +11326,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/tu-gom-0603-1uf-25v"
+			(at 82.55 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 82.55 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 82.55 27.94 0)
 			(effects
 				(font
@@ -11204,6 +11564,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 64.77 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 64.77 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fda5c164-379e-486c-870e-fc3715a26b14")
 		)
@@ -11416,6 +11794,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 53.34 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 53.34 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e14957d-b48f-45d5-b6df-9f7b9553b6fa")
 		)
@@ -11488,6 +11884,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/el357n-g-optoisolator-transistor-output-3750vrms-1-channel-4-sop"
+			(at 49.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 49.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 49.53 77.47 0)
 			(effects
 				(font
@@ -11582,6 +11996,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part number " ""
+			(at 85.09 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
+			(at 85.09 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1658a9a-5ce2-42c0-9aed-8f9f6e7e60b4")
 		)
@@ -11653,6 +12085,24 @@
 			)
 		)
 		(property "Thegioiic_Buylink" "https://www.thegioiic.com/dien-tro-220-ohm-0603-1-"
+			(at 116.84 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number " ""
+			(at 116.84 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manafacture" ""
 			(at 116.84 69.85 0)
 			(effects
 				(font

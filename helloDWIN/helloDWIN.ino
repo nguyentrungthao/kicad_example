@@ -1,7 +1,7 @@
 #include "DWIN.h"
 
-#define TX 21
-#define RX 47
+#define TX 14U
+#define RX 13U
 
 DWIN _dwin(Serial2, RX, TX, 115200);
 QueueHandle_t xQueueTouch;
@@ -47,24 +47,28 @@ const uint16_t pu16ColorBackGround[8][6] = {
   { pu16DWIN_COLOR[eBACK_GROUND], pu16DWIN_COLOR[eBACK_GROUND], pu16DWIN_COLOR[eBACK_GROUND], pu16DWIN_COLOR[eBACK_GROUND], pu16DWIN_COLOR[eBACK_GROUND], pu16DWIN_COLOR[eBACK_GROUND] },
 };
 
-#define DIS_X 65
+#define DIS_X 75
 #define DIS_Y 65
 #define RADIUS 25
 
 #define X00 70
-#define Y00 550
+#define Y00 560
 
 #define X05 (X00 + (5 * DIS_X))
 #define Y05 Y00
 
 #define X40 X00
-#define Y40 (Y00 + (3 * -DIS_Y))
+#define Y40 (Y00 + (4 * -DIS_Y))
 
 #define X45 (X00 + (4 * DIS_X))
-#define Y45 (Y00 + (3 * -DIS_Y))
+#define Y45 (Y00 + (4 * -DIS_Y))
 uint16_t *pu16COLOR_MATRIX = (uint16_t *)pu16Color;
 
 void setup() {
+
+  pinMode(42, OUTPUT);
+  digitalWrite(42, 1);
+
   // put your setup code here, to run once:
   Serial.begin(115200);
 
@@ -80,6 +84,9 @@ void setup() {
   // _dwin.xDrawMatrixCircle(0x857C, X40, Y40, RADIUS, DIS_X, -DIS_Y, (const uint16_t *)(pu16COLOR_MATRIX + 24), 4, 6);
   // _dwin.xDrawMatrixCircle(0x847C, X00, Y00, 0, DIS_X, -DIS_Y, (const uint16_t *)pu16COLOR_MATRIX, 4, 6);
   // _dwin.xDrawMatrixCircle(0x867C, X40, Y40, 0, DIS_X, -DIS_Y, (const uint16_t *)(pu16COLOR_MATRIX + 24), 4, 6);
+
+  // _dwin.xDrawBolderMatrixRectangle(0x837C, X00, Y00, RADIUS * 2, RADIUS * 2, DIS_X, -DIS_Y, (const uint16_t *)pu16COLOR_MATRIX, 4, 6);
+  // _dwin.xDrawBolderMatrixRectangle(0x847C, X40, Y40, RADIUS * 2, RADIUS * 2, DIS_X, -DIS_Y, (const uint16_t *)(pu16COLOR_MATRIX + 24), 4, 6);
 
   delay(1000);
 }
@@ -116,8 +123,10 @@ void loop() {
   //     pu16COLOR_MATRIX = (uint16_t *)pu16ColorBackGround;
   //     st = true;
   //   }
-  //   _dwin.xDrawMatrixCircle(0x847C, X00, Y00, 0, DIS_X, -DIS_Y, (const uint16_t *)pu16COLOR_MATRIX, 4, 6);
-  //   _dwin.xDrawMatrixCircle(0x867C, X40, Y40, 0, DIS_X, -DIS_Y, (const uint16_t *)(pu16COLOR_MATRIX + 24), 4, 6);
+  //   _dwin.xDrawFillMatrixRectangle(0x837C, X00, Y00, RADIUS * 2, RADIUS * 2, DIS_X, -DIS_Y, (const uint16_t *)pu16COLOR_MATRIX, 4, 6);
+  //   _dwin.xDrawFillMatrixRectangle(0x847C, X40, Y40, RADIUS * 2, RADIUS * 2, DIS_X, -DIS_Y, (const uint16_t *)(pu16COLOR_MATRIX + 24), 4, 6);
+  //   // _dwin.xDrawMatrixCircle(0x847C, X00, Y00, 0, DIS_X, -DIS_Y, (const uint16_t *)pu16COLOR_MATRIX, 4, 6);
+  //   // _dwin.xDrawMatrixCircle(0x867C, X40, Y40, 0, DIS_X, -DIS_Y, (const uint16_t *)(pu16COLOR_MATRIX + 24), 4, 6);
   //   t = millis();
   // }
 }

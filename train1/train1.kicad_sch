@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "8ef429ea-1d8f-44d5-b6bc-d1c8102fe584")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols)
 	(bus_alias "I2C"
 		(members "SCL" "SDA")
@@ -11,9 +11,12 @@
 	(bus_alias "SPI"
 		(members "MOSI" "MISO" "SCK")
 	)
-	(text "SETUP PHẦN MỀM CÀI PLUGIN JLC và IBOM\n\n=================THIẾT KẾ SẢN PHẨM====================\nNGHIÊN CỨU SẢN PHẨM MẪU\nCHỌN LINH KIỆN \n=================GIAI ĐOẠN PROTOTILE==================\nSCHEMATIC -------------------\nhướng dẫn thêm thư viện, global và project\nhướng dẫn lấy linh kiện \nhướng dẫn định nghĩa bus i2c, spi, bus số (demo vẽ insert)\nhướng dẫn dùng netclass(định nghĩa class, màu mè cho class)\nhướng dẫn thêm hình ảnh \nhướng dẫn add footprint\nhướng dẫn ghi thêm giá trị linh kiện \nvẽ SCH. ĐỐI VỚI CÁC BẠN MỚI LẦN ĐẦU NÊN THÊM CÁC SOLDJUMBER để hạn chế cháy linh kiện \nhướng dẫn thêm mã BOM của JLC và thegioiic, ICdayroi\nhướng dẫn xuất BOM\nhướng dẫn xuất PDF \nhướng dẫn sửa và cập nhật symbol\nhướng dẫn exclude linh kiện khỏi BOM\nxuất symbol hiện tại vào 1 thư viện mới riêng \nPCB---------------------------\nhướng dẫn thêm thư viện\nhướng dẫn các thông số của board setup\n- thêm xóa các lớp 4 lớp 6 lớp \n- cấu hình chữ \n- designed rule\n- cấu hình kích thước track, via, các netclass\nhướng dẫn vẽ viền board(đúng mm hoặc nhập file DXF vào)\n- vẽ kích thước board, kích thước vị trí lỗ ốc \n- tự thêm grid\n- cắt board tạo khoảng trống cách ly\nupdate SCH sang PCB\n- sửa footprint trực tiếp \nlayout linh kiện \n- xếp theo chụp các linh kiện, dùng các lệnh sắp xếp linh kiện \n- đặt connecter theo vỏ hộp từ đó đặt các linh kiện còn lại \n- chia vùng điện áp, vùng phủ đồng và giải thích các lựa chọn phủ đồng: thermal => sold, zone priority\n- dùng clearance và giải thích \n- rọc lớp đồng để phủ chì \n- sắp xếp tinh các linh kiện theo sơ đồ nguyên lý \n- đi dây \n+ đi dây vi sai\n+ hướng dẫn matching length\n+ tính trở kháng đường dây \n=> thêm các via GND \nthêm teadrop \n- xếp chữ ghi, chữ nổi đậm, edit fond chữ nhanh thêm thông tin, logo\n- chạy DRC kiểm lỗi\n- xuất STEP \n- xuất pdf\n- xuất GERBER \n- xuất CPL \n- update file lên JLC để review\n===========\nmột số lỗi \n- viền board ko nhận => chạy DRC sửa vị trí đỏ \n========================HÀN MẠCH======================\n=======================DO NGUỘI========================\nđo thông mạch nguồn, các đường tín hiệu trước khi cắm điện\n=======================LẬP TRÌNH TEST MẠCH============\n"
+	(bus_alias "USB"
+		(members "DP" "DN")
+	)
+	(text "SETUP PHẦN MỀM CÀI PLUGIN JLC và IBOM\n\n=================THIẾT KẾ SẢN PHẨM====================\nNGHIÊN CỨU SẢN PHẨM MẪU\nCHỌN LINH KIỆN \n=================GIAI ĐOẠN PROTOTILE==================\nSYMBOL + FOOTPRINT ------------\ntạo symbol \n- tạo symbol \n- cấu hình chân\n- symbol nhiều part\n- link symbol nhanh\nSCHEMATIC -------------------\nhướng dẫn thêm thư viện, global và project\nhướng dẫn lấy linh kiện \nhướng dẫn định nghĩa bus i2c, spi, bus số (demo vẽ insert)\nhướng dẫn dùng netclass(định nghĩa class, màu mè cho class)\nhướng dẫn thêm hình ảnh \nhướng dẫn add footprint\nhướng dẫn ghi thêm giá trị linh kiện \nvẽ SCH. ĐỐI VỚI CÁC BẠN MỚI LẦN ĐẦU NÊN THÊM CÁC SOLDJUMBER để hạn chế cháy linh kiện \nhướng dẫn thêm mã BOM của JLC và thegioiic, ICdayroi\nhướng dẫn xuất BOM\nhướng dẫn xuất PDF \nhướng dẫn sửa và cập nhật symbol\nhướng dẫn exclude linh kiện khỏi BOM\nhướng dẫn thêm hình ảnh\nxuất symbol hiện tại vào 1 thư viện mới riêng \nPCB---------------------------\nhướng dẫn thêm thư viện\nhướng dẫn các thông số của board setup\n- thêm xóa các lớp 4 lớp 6 lớp \n- cấu hình chữ \n- designed rule\n- cấu hình kích thước track, via, các netclass\nhướng dẫn vẽ viền board(đúng mm hoặc nhập file DXF vào)\n- vẽ kích thước board, kích thước vị trí lỗ ốc \n- tự thêm grid\n- cắt board tạo khoảng trống cách ly\nupdate SCH sang PCB\n- sửa footprint trực tiếp \nlayout linh kiện \n- xếp theo chụp các linh kiện, dùng các lệnh sắp xếp linh kiện \n- đặt connecter theo vỏ hộp từ đó đặt các linh kiện còn lại \n- chia vùng điện áp, vùng phủ đồng và giải thích các lựa chọn phủ đồng: thermal => sold, zone priority\n- dùng clearance và giải thích \n- rọc lớp đồng để phủ chì \n- sắp xếp tinh các linh kiện theo sơ đồ nguyên lý \n- đi dây \n+ đi dây vi sai\n+ hướng dẫn matching length\n+ tính trở kháng đường dây \n=> thêm các via GND \nthêm teadrop \n- xếp chữ ghi, chữ nổi đậm, edit fond chữ nhanh thêm thông tin, logo\n- chạy DRC kiểm lỗi\n- xuất STEP \n- xuất pdf\n- xuất GERBER \n- xuất CPL \n- xuất thư viện riêng cho project\n- update file lên JLC để review\n===========\nmột số lỗi \n- viền board ko nhận => chạy DRC sửa vị trí đỏ \n========================HÀN MẠCH======================\n=======================DO NGUỘI========================\nđo thông mạch nguồn, các đường tín hiệu trước khi cắm điện\n=======================LẬP TRÌNH TEST MẠCH============\n"
 		(exclude_from_sim no)
-		(at -106.68 33.02 0)
+		(at 54.102 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23,14 +26,14 @@
 		(uuid "f65b5c2c-a0bf-4c83-8aad-a4396a297cfc")
 	)
 	(junction
-		(at 92.71 88.9)
+		(at 195.58 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63abfcf8-f869-43a7-b62e-117cead44d0d")
 	)
 	(bus
 		(pts
-			(xy 160.02 125.73) (xy 179.07 125.73)
+			(xy 262.89 173.99) (xy 281.94 173.99)
 		)
 		(stroke
 			(width 0)
@@ -40,7 +43,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 99.06) (xy 179.07 99.06)
+			(xy 262.89 147.32) (xy 281.94 147.32)
 		)
 		(stroke
 			(width 0)
@@ -50,7 +53,7 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 91.44) (xy 168.91 91.44)
+			(xy 281.94 139.7) (xy 271.78 139.7)
 		)
 		(stroke
 			(width 0)
@@ -60,7 +63,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 118.11) (xy 99.06 118.11)
+			(xy 189.23 166.37) (xy 201.93 166.37)
 		)
 		(stroke
 			(width 0)
@@ -70,7 +73,7 @@
 	)
 	(bus
 		(pts
-			(xy 92.71 73.66) (xy 92.71 88.9)
+			(xy 195.58 121.92) (xy 195.58 137.16)
 		)
 		(stroke
 			(width 0)
@@ -80,7 +83,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 124.46) (xy 99.06 124.46)
+			(xy 189.23 172.72) (xy 201.93 172.72)
 		)
 		(stroke
 			(width 0)
@@ -90,7 +93,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 127) (xy 99.06 127)
+			(xy 189.23 175.26) (xy 201.93 175.26)
 		)
 		(stroke
 			(width 0)
@@ -100,7 +103,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 129.54) (xy 179.07 129.54)
+			(xy 262.89 177.8) (xy 281.94 177.8)
 		)
 		(stroke
 			(width 0)
@@ -110,7 +113,7 @@
 	)
 	(bus
 		(pts
-			(xy 92.71 91.44) (xy 92.71 88.9)
+			(xy 195.58 139.7) (xy 195.58 137.16)
 		)
 		(stroke
 			(width 0)
@@ -120,7 +123,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 139.7) (xy 99.06 139.7)
+			(xy 189.23 187.96) (xy 201.93 187.96)
 		)
 		(stroke
 			(width 0)
@@ -130,7 +133,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 91.44) (xy 168.91 73.66)
+			(xy 271.78 139.7) (xy 271.78 121.92)
 		)
 		(stroke
 			(width 0)
@@ -140,7 +143,7 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 88.9) (xy 92.71 88.9)
+			(xy 189.23 137.16) (xy 195.58 137.16)
 		)
 		(stroke
 			(width 0)
@@ -150,7 +153,7 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 91.44) (xy 92.71 91.44)
+			(xy 189.23 139.7) (xy 195.58 139.7)
 		)
 		(stroke
 			(width 0)
@@ -160,7 +163,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 142.24) (xy 99.06 142.24)
+			(xy 189.23 190.5) (xy 201.93 190.5)
 		)
 		(stroke
 			(width 0)
@@ -170,7 +173,7 @@
 	)
 	(bus
 		(pts
-			(xy 92.71 88.9) (xy 99.06 88.9)
+			(xy 195.58 137.16) (xy 201.93 137.16)
 		)
 		(stroke
 			(width 0)
@@ -180,7 +183,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 73.66) (xy 92.71 73.66)
+			(xy 271.78 121.92) (xy 195.58 121.92)
 		)
 		(stroke
 			(width 0)
@@ -190,7 +193,7 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 137.16) (xy 99.06 137.16)
+			(xy 189.23 185.42) (xy 201.93 185.42)
 		)
 		(stroke
 			(width 0)
@@ -199,7 +202,7 @@
 		(uuid "f9298c9e-1037-4cc3-8959-0ffb08e261f2")
 	)
 	(sheet
-		(at 62.23 30.48)
+		(at 165.1 78.74)
 		(size 176.53 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -216,7 +219,7 @@
 		)
 		(uuid "4dcb5ec4-8bea-4ca7-980c-d5c908877619")
 		(property "Sheetname" "Power"
-			(at 62.23 29.7684 0)
+			(at 165.1 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -225,7 +228,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 62.23 71.7046 0)
+			(at 165.1 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243,7 +246,7 @@
 		)
 	)
 	(sheet
-		(at 179.07 119.38)
+		(at 281.94 167.64)
 		(size 59.69 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -260,7 +263,7 @@
 		)
 		(uuid "4eb3b76d-0eb5-491d-aca5-269e4356b057")
 		(property "Sheetname" "INPUT_OUTPUT_DIGI"
-			(at 179.07 118.6684 0)
+			(at 281.94 166.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,7 +272,7 @@
 			)
 		)
 		(property "Sheetfile" "INPUT.kicad_sch"
-			(at 179.07 149.1746 0)
+			(at 281.94 197.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -279,7 +282,7 @@
 			)
 		)
 		(pin "ESP_IN[1..2]" output
-			(at 179.07 125.73 180)
+			(at 281.94 173.99 180)
 			(uuid "428e54a3-ecc8-43e1-a464-3a0348d6194b")
 			(effects
 				(font
@@ -289,7 +292,7 @@
 			)
 		)
 		(pin "ESP_OUT[1..2]" input
-			(at 179.07 129.54 180)
+			(at 281.94 177.8 180)
 			(uuid "dbdeff08-2ca2-4083-abc5-296198eafc36")
 			(effects
 				(font
@@ -307,7 +310,7 @@
 		)
 	)
 	(sheet
-		(at 99.06 80.01)
+		(at 201.93 128.27)
 		(size 60.96 68.58)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -324,7 +327,7 @@
 		)
 		(uuid "6b24fff4-72d1-4323-8544-6c576989d7f1")
 		(property "Sheetname" "ESP32"
-			(at 99.06 79.2984 0)
+			(at 201.93 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -333,7 +336,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP32.kicad_sch"
-			(at 99.06 149.1746 0)
+			(at 201.93 197.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -343,7 +346,7 @@
 			)
 		)
 		(pin "ESP_IN[1..2]" input
-			(at 160.02 125.73 0)
+			(at 262.89 173.99 0)
 			(uuid "160aa5db-4025-48bc-958a-917db615d3fb")
 			(effects
 				(font
@@ -353,7 +356,7 @@
 			)
 		)
 		(pin "ESP{I2C}" output
-			(at 99.06 88.9 180)
+			(at 201.93 137.16 180)
 			(uuid "87d386bd-16f3-4d2e-88c7-91999c39978e")
 			(effects
 				(font
@@ -363,7 +366,7 @@
 			)
 		)
 		(pin "ESP_SDCARD_DET" input
-			(at 99.06 142.24 180)
+			(at 201.93 190.5 180)
 			(uuid "30b64499-0b43-4ee0-b884-7396074253de")
 			(effects
 				(font
@@ -373,7 +376,7 @@
 			)
 		)
 		(pin "ESP_SDCARD_CS" output
-			(at 99.06 139.7 180)
+			(at 201.93 187.96 180)
 			(uuid "71f677e2-8290-44c9-8935-37ef6a097169")
 			(effects
 				(font
@@ -383,7 +386,7 @@
 			)
 		)
 		(pin "ESP_CO2_RX" input
-			(at 99.06 127 180)
+			(at 201.93 175.26 180)
 			(uuid "5fd7bb12-eb80-4efb-a379-f869e6a2e907")
 			(effects
 				(font
@@ -393,7 +396,7 @@
 			)
 		)
 		(pin "ESP_CO2_TX" output
-			(at 99.06 124.46 180)
+			(at 201.93 172.72 180)
 			(uuid "6623893c-951a-48d9-97be-196cf1f29a5a")
 			(effects
 				(font
@@ -403,7 +406,7 @@
 			)
 		)
 		(pin "ESP_SPI{SPI}" output
-			(at 99.06 137.16 180)
+			(at 201.93 185.42 180)
 			(uuid "05f8a53c-275f-4320-9795-fafd9e14d13e")
 			(effects
 				(font
@@ -413,7 +416,7 @@
 			)
 		)
 		(pin "Buzzer" output
-			(at 99.06 118.11 180)
+			(at 201.93 166.37 180)
 			(uuid "058cb4f9-7b1b-4625-ba60-c098d36a7bd6")
 			(effects
 				(font
@@ -423,7 +426,7 @@
 			)
 		)
 		(pin "ESP_OUT[1..2]" output
-			(at 160.02 129.54 0)
+			(at 262.89 177.8 0)
 			(uuid "eaadb589-5a06-4952-975e-9d6e3a1bdf9d")
 			(effects
 				(font
@@ -433,7 +436,7 @@
 			)
 		)
 		(pin "ADC" input
-			(at 160.02 99.06 0)
+			(at 262.89 147.32 0)
 			(uuid "80b0ef58-7f67-45b4-b2bc-0dbb04e784c3")
 			(effects
 				(font
@@ -451,7 +454,7 @@
 		)
 	)
 	(sheet
-		(at 179.07 81.28)
+		(at 281.94 129.54)
 		(size 59.69 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -468,7 +471,7 @@
 		)
 		(uuid "6e5f46bb-dcd3-49f6-90af-2a84916bda84")
 		(property "Sheetname" "RELAY"
-			(at 179.07 80.5684 0)
+			(at 281.94 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,7 +480,7 @@
 			)
 		)
 		(property "Sheetfile" "OUTPUT.kicad_sch"
-			(at 179.07 114.8846 0)
+			(at 281.94 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -487,7 +490,7 @@
 			)
 		)
 		(pin "PCF8574{I2C}" input
-			(at 179.07 91.44 180)
+			(at 281.94 139.7 180)
 			(uuid "42c9acae-8202-4da5-930f-38b1ed336cb4")
 			(effects
 				(font
@@ -497,7 +500,7 @@
 			)
 		)
 		(pin "ESP_ADC" output
-			(at 179.07 99.06 180)
+			(at 281.94 147.32 180)
 			(uuid "f160bfd6-cbd0-4ac7-b88c-c31c8b4c1051")
 			(effects
 				(font
@@ -515,7 +518,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 81.28)
+		(at 165.1 129.54)
 		(size 24.13 67.31)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -532,7 +535,7 @@
 		)
 		(uuid "7ee0aad5-796c-490b-9bdc-cef3c59d56b8")
 		(property "Sheetname" "Ngoại vi"
-			(at 62.23 80.5684 0)
+			(at 165.1 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,7 +544,7 @@
 			)
 		)
 		(property "Sheetfile" "NgoaiVi.kicad_sch"
-			(at 62.23 149.1746 0)
+			(at 165.1 197.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +554,7 @@
 			)
 		)
 		(pin "SD_CS" input
-			(at 86.36 139.7 0)
+			(at 189.23 187.96 0)
 			(uuid "833efb17-457c-41f1-baa3-1d8b5ff6c0cc")
 			(effects
 				(font
@@ -561,7 +564,7 @@
 			)
 		)
 		(pin "SD{SPI}" input
-			(at 86.36 137.16 0)
+			(at 189.23 185.42 0)
 			(uuid "20f86433-41b6-4fdd-9c6e-5ae0a9541768")
 			(effects
 				(font
@@ -571,7 +574,7 @@
 			)
 		)
 		(pin "SD_DET" output
-			(at 86.36 142.24 0)
+			(at 189.23 190.5 0)
 			(uuid "9d725900-90c9-4e5f-9a2c-38564a8d3666")
 			(effects
 				(font
@@ -581,7 +584,7 @@
 			)
 		)
 		(pin "Buzzer" input
-			(at 86.36 118.11 0)
+			(at 189.23 166.37 0)
 			(uuid "f0f146c8-6dfe-45ba-be0c-04eb70e0fd2d")
 			(effects
 				(font
@@ -591,7 +594,7 @@
 			)
 		)
 		(pin "HM_RX" input
-			(at 86.36 124.46 0)
+			(at 189.23 172.72 0)
 			(uuid "49b7cd37-907e-45dd-9ef6-401d5dbdb5e8")
 			(effects
 				(font
@@ -601,7 +604,7 @@
 			)
 		)
 		(pin "SHT31{I2C}" input
-			(at 86.36 88.9 0)
+			(at 189.23 137.16 0)
 			(uuid "dd2e0ebb-5977-4b5b-a9de-d6799d66e5b8")
 			(effects
 				(font
@@ -611,7 +614,7 @@
 			)
 		)
 		(pin "HM_TX" output
-			(at 86.36 127 0)
+			(at 189.23 175.26 0)
 			(uuid "4dbaa600-fc41-427d-b20a-c016f63cd021")
 			(effects
 				(font
@@ -621,7 +624,7 @@
 			)
 		)
 		(pin "DS3231{I2C}" input
-			(at 86.36 91.44 0)
+			(at 189.23 139.7 0)
 			(uuid "f7679f88-ef73-47e0-aea8-0f54e6a531fe")
 			(effects
 				(font

@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "TrainSymbol")(type "KiCad")(uri "${KIPRJMOD}/LIB/symbol/TrainSymbol.kicad_sym")(options "")(descr ""))
-)
